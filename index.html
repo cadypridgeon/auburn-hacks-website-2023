@@ -30,37 +30,38 @@
         alt="Major League Hacking 2023 Hackathon Season" style="width:100%"></a>
 
 <body>
-    <div id="orange-bg-top">
-        <!--make this behind all of top area-->
+    <div id="orange-bg-home">
         <div id="navbar" class="abs">
-            <!--make navbar position:absolute-->
             <div id="left-spacer"></div>
-            <div id="home-link"></div>
-            <div id="about-link"></div>
-            <div id="faq-link"></div>
-            <div id="sponsors-link"></div>
-            <div id="directors-link"></div>
-            <div id="register-button"></div>
+            <div id="mid-spacer">
+                <div id="home-link" class="navbar-word"><a href="#home" class="dark-text">home</a></div>
+                <div id="about-link" class="navbar-word"><a href="#about" class="dark-text">about</a></div>
+                <div id="faq-link" class="navbar-word"><a href="#faq" class="dark-text">faq</a></div>
+                <div id="sponsors-link" class="navbar-word"><a href="#sponsors" class="dark-text">sponsors</a></div>
+                <div id="directors-link" class="navbar-word"><a href="#directors" class="dark-text">directors</a></div>
+                <div id="register-link" class="navbar-word">
+                    <a id="register-button" target="_blank" href="https://forms.gle/yj7QgRMiyZonyTfF7">register</a>
+                </div>
+            </div>
             <div id="right-spacer"></div>
         </div>
         <div id="light-hill" class="abs"></div>
         <div id="hill" class="abs"></div>
         <div id="dark-hill" class="abs"></div>
-        <div id="moving-sun" class="abs"></div>
         <div id="palm-and-leaves" class="abs"></div>
+        <div id="moving-sun" class="abs"></div>
         <div id="sand-area">
-            <!--this is going behind everything, on top of orange-bg-top-->
             <div id="light-wave">
                 <div id="dark-wave">
-                    <div id="page-title-content">
-                        <h1 id="page-title-name" class="mar-0">auburn hacks</h1>
-                        <h3 id="page-title-date">2/11/23-2/12/23</h3>
-                        <div id="page-title-icons">
-                            <div id="page-title-icon1"></div>
-                            <div id="page-title-icon2"></div>
-                            <div id="page-title-icon3"></div>
-                            <div id="page-title-icon4"></div>
-                            <div id="page-title-icon5"></div>
+                    <div id="home-content">
+                        <h1 id="home-name" class="light-text text-100">auburn hacks</h1>
+                        <h3 id="home-date" class="light-text text-50">2/11/23-2/12/23</h3>
+                        <div id="home-icons">
+                            <div id="home-icon1"></div>
+                            <div id="home-icon2"></div>
+                            <div id="home-icon3"></div>
+                            <div id="home-icon4"></div>
+                            <div id="home-icon5"></div>
                         </div>
                     </div>
                 </div>
@@ -69,32 +70,59 @@
     </div>
     <div id="blue-gradient-bg">
         <div id="About">
-            <div id="about-title"></div>
-            <div id="about-content">
-                <div id="content-main"></div>
-                <div id="content-join-us"></div>
+            <h1 id="about-title" class="light-text text-80 marbot-64">about</h1>
+            <div id="about-other">
+                <p id="about-content" class="light-text text-20 text-align-center">Auburn Hacks is a free, 24-hour,
+                    annual hackathon event
+                    held in the spring at Auburn University. During this weekend-long event, hundreds of students come
+                    together to create technological projects backed by collaboration, innovation, and passion.</p>
+                <p id="about-join-us" class="light-text text-20 text-align-center text-bold">Join us at Auburn Hacks
+                    from February 11th - 12th, 2023!</p>
             </div>
         </div>
-        <div id="FAQ">
-            <div id="faq-title"></div>
-            <div id="faq-row1">
-                <div id="faq-general"></div>
-                <div id="faq-registration"></div>
+        <div id="FAQ" class="martop-300">
+            <h1 id="faq-title" class="light-text text-80 marbot-64">faq</h1>
+            <div id="faq-row1" class="faq-row">
+                <div id="faq-general" class="faq-area">
+                    <h3 class="light-text text-50">general</h3>
+                    <div class="faq-question"></div>
+                    <div class="faq-question"></div>
+                    <div class="faq-question"></div>
+                </div>
+                <div id="faq-registration" class="faq-area">
+                    <h3 class="light-text text-50">registration</h3>
+                    <div class="faq-question"></div>
+                    <div class="faq-question"></div>
+                    <div class="faq-question"></div>
+                </div>
             </div>
-            <div id="faq-row2">
-                <div id="faq-theme"></div>
-                <div id="faq-logistics"></div>
+            <div id="faq-row2" class="faq-row">
+                <div id="faq-theme" class="faq-area">
+                    <h3 class="light-text text-50">theme</h3>
+                    <div class="faq-question"></div>
+                    <div class="faq-question"></div>
+                    <div class="faq-question"></div>
+                </div>
+                <div id="faq-logistics" class="faq-area">
+                    <h3 class="light-text text-50">logistics</h3>
+                    <div class="faq-question"></div>
+                    <div class="faq-question"></div>
+                    <div class="faq-question"></div>
+                </div>
             </div>
         </div>
-        <div id="Sponsors">
-            <div id="sponsors-title"></div>
-            <div id="sponsors-content"></div>
-            <div id="sponsors-button"></div>
+        <div id="Sponsors" class="martop-300">
+            <h1 id="sponsors-title" class="light-text text-100 marbot-64">sponsors</h1>
+            <p id="sponsors-content" class="light-text text-20 text-align-center">If you are interested in sponsoring
+                Auburn Hacks, please contact us by clicking the button below!</p>
+            <div id="sponsors-button">
+                <a id="email-button" class="text-bold">Click here to email us!</a>
+            </div>
         </div>
-        <div id="Directors">
-            <div id="directors-title"></div>
+        <div id="Directors" class="martop-300">
+            <h1 id="directors-title" class="light-text text-80 marbot-64">directors</h1>
             <div id="directors-list">
-                <div id="directors-row1">
+                <div id="directors-row1" class="directors-row">
                     <div>
                         <img />
                         <h5></h5>
@@ -116,7 +144,7 @@
                         <p></p>
                     </div>
                 </div>
-                <div id="row2">
+                <div id="directors-row2" class="directors-row">
                     <div>
                         <img />
                         <h5></h5>
@@ -136,7 +164,7 @@
             </div>
         </div>
         <div id="countdown">
-            <div id="countdown-title"></div>
+            <h1 id="countdown-title"></h1>
             <div id="countdown-timer">
                 <div id="hours"></div>
                 <div id="minutes"></div>
