@@ -1,0 +1,19 @@
+html {
+    --cream: #F6DFB4;
+    --dark-cream: #ECA56E;
+    --orange: #E96F3D;
+    --dark-orange: #D73D24;
+    --light-teal: #83A9A1;
+    --teal: #338C9A;
+    --blue: #1D6B8A;
+    --dark-blue: #0B2A54;
+
+    --primary: #FFFFFF;
+    --secondary: #D1D1D1;
+    --accent: #C9744F;
+    --primary-dark: #0B2A54;
+    --secondary-dark: #2A456B;
+    --accent-dark: #1D6987;
+    
+    scroll-behavior: smooth;
+}
