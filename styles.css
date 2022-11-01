@@ -1,3 +1,5 @@
+/* elements----------------------------------------------elements */
+
 html {
     --cream: #F6DFB4;
     --dark-cream: #ECA56E;
@@ -14,6 +16,85 @@ html {
     --primary-dark: #0B2A54;
     --secondary-dark: #2A456B;
     --accent-dark: #1D6987;
-    
+
     scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* ids----------------------------------------------ids */
+
+#orange-bg-top {
+    width: 100%;
+    height: 100vh;
+    background: #FBD3B2;
+    display: flex;
+    align-items: flex-end;
+}
+
+#sand-area {
+    width: 100%;
+    height: 70vh;
+    background: #F6DFB4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#light-wave {
+    height: 100%;
+    width: 65vw;
+    background: var(--teal);
+    display: flex;
+    justify-content: flex-end;
+}
+
+#dark-wave {
+    height: 100%;
+    width: 55vw;
+    background: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-title-content {
+    flex-direction: column;
+}
+
+#page-title-name {
+    font-size: 6.25rem;
+}
+
+#page-title-date {
+    font-size: 3.125rem;
+}
+
+#blue-gradient-bg {
+    width: 100%;
+    height: 577.88vh;
+    background-image: linear-gradient(180deg, #0D2C54 0%, #485E7A 27.08%, #517F92 53.12%, #92BFC6 85.42%, #A1C7BF 100%);
+}
+
+#sand-at-bottom {
+    width: 100%;
+    height: 40.94vh;
+    background: #F2DDB2;
+}
+
+
+/* classes----------------------------------------------classes */
+
+.abs {
+    position: absolute;
+}
+
+.mar-0 {
+    margin: 0;
 }
