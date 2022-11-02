@@ -383,3 +383,10 @@ h3 {
     margin: 0 1.34375rem;
     bottom: 0;
 }
+
+#palm-and-leaves #palm {
+    width: 100vw;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
