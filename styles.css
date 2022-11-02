@@ -384,12 +384,35 @@ body {
 }
 
 .bottom-icon {
-    background: var(--primary-dark);
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
     margin: 0 1.34375rem;
     bottom: 0;
+}
+
+.bottom-icon a img {
+    transition: opacity .3s ease-in-out;
+    width: 5rem;
+    height: 5rem;
+}
+
+.bottom-icon a img:first-child {
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+    z-index: 7;
+}
+
+.bottom-icon a img:last-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+}
+
+.bottom-icon a:hover img:first-child {
+    opacity: 0;
 }
 
 #palm-and-leaves #palm {
