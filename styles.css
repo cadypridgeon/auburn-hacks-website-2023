@@ -414,16 +414,16 @@ body {
 }
 
 .bottom-icon a img:first-child {
-    /* position: absolute; */
-    top: 0px;
-    left: 0px;
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
     z-index: 7;
 }
 
 .bottom-icon a img:last-child {
-    /* position: absolute; */
-    top: 0px;
-    left: 0px;
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
     z-index: 6;
 }
 
@@ -432,6 +432,7 @@ body {
 }
 
 #palm-and-leaves #palm {
+    pointer-events: none;
     position: absolute;
     width: 105vw;
     top: -12vh;
