@@ -46,10 +46,18 @@ h3 {
     font-family: 'Ragile', 'serif';
 }
 
-html,
-body {
-    max-width: 100%;
+html {
+    height: 100%;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
     overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100vw;
 }
 
 
@@ -154,8 +162,8 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 2.6875rem;
-    height: 3.5vh;
-    width: 3.5vw;
+    height: 3.125rem;
+    width: 20rem;
     justify-content: space-between;
     align-items: center;
 
@@ -286,6 +294,7 @@ body {
 }
 
 .navbar-word {
+    z-index: 10000;
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--primary-dark);
@@ -383,6 +392,13 @@ body {
     margin: 0 2rem;
 }
 
+.top-icon {
+    z-index: 10000;
+    height: 3.125rem;
+    width: 3.125rem;
+    margin: 0 0.5rem;
+}
+
 .bottom-icon {
     width: 5rem;
     height: 5rem;
@@ -405,7 +421,7 @@ body {
 }
 
 .bottom-icon a img:last-child {
-    position: absolute;
+    /* position: absolute; */
     top: 0px;
     left: 0px;
     z-index: 6;
@@ -420,5 +436,5 @@ body {
     width: 105vw;
     top: -12vh;
     left: -5vw;
-    z-index: 1000;
+    z-index: 5;
 }
