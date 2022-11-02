@@ -46,6 +46,12 @@ h3 {
     font-family: 'Ragile', 'serif';
 }
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 
 /* ids----------------------------------------------ids */
 
@@ -387,8 +393,9 @@ h3 {
 }
 
 #palm-and-leaves #palm {
-    width: 100vw;
     position: absolute;
-    top: 0vw;
-    left: 0vw;
+    width: 105vw;
+    top: -12vh;
+    left: -5vw;
+    z-index: 1000;
 }
