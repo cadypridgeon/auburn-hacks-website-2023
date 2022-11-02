@@ -144,13 +144,15 @@ h3 {
 }
 
 #home-icons {
+
     display: flex;
     flex-direction: row;
     margin-top: 2.6875rem;
-    height: 3rem;
-    width: 20rem;
+    height: 3.5vh;
+    width: 3.5vw;
     justify-content: space-between;
     align-items: center;
+
 }
 
 #blue-gradient-bg {
