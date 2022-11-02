@@ -38,6 +38,11 @@ h5,
 h6,
 p {
     margin: 0;
+    
+}
+
+h1,
+h3 {
     font-family: 'Ragile', 'serif';
 }
 
