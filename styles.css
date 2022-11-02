@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Ragile';
+    src: url('assets/fonts/Ragile.woff') format('woff');
+}
+
 /* elements----------------------------------------------elements */
 
 html {
@@ -33,6 +38,7 @@ h5,
 h6,
 p {
     margin: 0;
+    font-family: 'Ragile', 'serif';
 }
 
 
