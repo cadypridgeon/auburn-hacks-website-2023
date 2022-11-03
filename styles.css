@@ -45,6 +45,13 @@ h3 {
     font-family: 'Ragile', 'serif';
 }
 
+h2,
+body,
+button,
+a {
+    font-family: 'Poppins', serif;
+}
+
 html {
     height: 100%;
     width: 100vw;
@@ -465,7 +472,7 @@ body {
     pointer-events: none;
     position: absolute;
     width: 105vw;
-    top: -12vh;
     left: -5vw;
+    bottom: 0vh;
     z-index: 5;
 }
