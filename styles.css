@@ -38,7 +38,6 @@ h5,
 h6,
 p {
     margin: 0;
-
 }
 
 h1,
@@ -393,10 +392,45 @@ body {
 }
 
 .top-icon {
-    z-index: 10000;
     height: 3.125rem;
     width: 3.125rem;
     margin: 0 0.5rem;
+}
+
+.transition {
+    transition: opacity .3s ease-in-out;
+}
+
+.top-icon a img {
+    transition: opacity .3s ease-in-out;
+}
+
+.child1 {
+    position: absolute;
+    z-index: 7;
+}
+
+.top-icon a img:first-child {
+    position: absolute;
+    z-index: 7;
+}
+
+.child2 {
+    position: absolute;
+    z-index: 6;
+}
+
+.top-icon a img:last-child {
+    position: absolute;
+    z-index: 6;
+}
+
+.child1-hover {
+    opacity: 0;
+}
+
+.top-icon a:hover img:last-child {
+    opacity: 0;
 }
 
 .bottom-icon {
@@ -415,15 +449,11 @@ body {
 
 .bottom-icon a img:first-child {
     position: absolute;
-    /* top: 0px;
-    left: 0px; */
     z-index: 7;
 }
 
 .bottom-icon a img:last-child {
     position: absolute;
-    /* top: 0px;
-    left: 0px; */
     z-index: 6;
 }
 
