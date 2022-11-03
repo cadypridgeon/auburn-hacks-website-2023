@@ -418,9 +418,7 @@ body {
 .top-icon {
     width: 3.125rem;
     height: 3.125rem;
-    /* border-radius: 50%; */
     margin: 0 0.5rem;
-    /* bottom: 0; */
 }
 
 .top-icon a img {
@@ -443,47 +441,23 @@ body {
     opacity: 0;
 }
 
-/* .top-icon {
-    height: 3.125rem;
-    width: 3.125rem;
-    margin: 0 0.5rem;
-} */
-
 .transition {
     transition: opacity .3s ease-in-out;
 }
-
-/* .top-icon a img {
-    transition: opacity .3s ease-in-out;
-} */
 
 .child1 {
     position: absolute;
     z-index: 7;
 }
 
-/* .top-icon a img:first-child {
-    position: absolute;
-    z-index: 7;
-} */
-
 .child2 {
     position: absolute;
     z-index: 6;
 }
 
-/* .top-icon a img:last-child {
-    position: absolute;
-    z-index: 6;
-} */
-
 .child1-hover {
     opacity: 0;
 }
-
-/* .top-icon a:hover img:last-child {
-    opacity: 0;
-} */
 
 .bottom-icon {
     width: 5rem;
