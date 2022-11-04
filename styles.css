@@ -122,9 +122,9 @@ body {
     /* margin-bottom: 58vh;
     margin-left: 70vw; */
     /* background: #f69666; */
-    width: 100vw;
-    bottom: 27vh;
-    left: 32vw;
+    width: 108vw;
+    top: -2.5vw;
+    left: -5vw;
     position: absolute;
     pointer-events: none;
     /* border-radius: 50%; */
@@ -132,37 +132,39 @@ body {
 
 #sand {
     z-index: 3;
-    width: 106vw;
+    /* width: 100vw; */
     /* background: #F6DFB4; */
     display: flex;
     position: absolute;
     pointer-events: none;
-    bottom: 0.02vh;
-    left: -4vw;
+    width: 108vw;
+    top: -2.5vw;
+    left: -3vw;
 }
 
 #light-wave {
     z-index: 2;
-    width: 100vw;
     /* background: var(--teal); */
     display: flex;
     justify-content: flex-end;
     pointer-events: none;
     position: absolute;
-    bottom: 0.07vh;
-    left: -1vw;
+    width: 108vw;
+    top: -2.5vw;
+    left: -3vw;
 }
 
 #dark-wave {
-    width: 110vw;
+    /* width: 100vw; */
     /* background: var(--blue); */
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     pointer-events: none;
-    bottom: 0vh;
-    left: 0vw;
+    width: 108vw;
+    top: -2.5vw;
+    left: -3vw;
 }
 
 #home-content {
@@ -174,6 +176,7 @@ body {
     z-index: 1000;
     top: 40vh;
     left: 47vw;
+    text-align: right;
 }
 
 #home-date {
@@ -187,8 +190,8 @@ body {
     margin-top: 2rem;
     height: 3.125rem;
     width: 20rem;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: end;
+    align-items: flex-end;
 
 }
 
@@ -489,9 +492,9 @@ body {
 
 #palm-and-leaves #palm {
     position: absolute;
-    width: 105vw;
-    left: -5vw;
-    bottom: 0vh;
+    width: 97rem;
+    top: -4.25rem;
+    left: -5.67rem;
     z-index: 5;
     pointer-events: none;
 }
