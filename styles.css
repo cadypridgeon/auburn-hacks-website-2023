@@ -90,7 +90,7 @@ body {
 }
 
 #left-spacer {
-    width: 34vw;
+    width: 28vw;
 }
 
 #mid-spacer {
@@ -102,7 +102,7 @@ body {
 }
 
 #right-spacer {
-    width: 13rem;
+    width: 12rem;
 }
 
 #register-button {
@@ -113,7 +113,7 @@ body {
     background: var(--primary-dark);
     box-sizing: border-box;
     padding: 0.5rem 2rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     border-radius: 0.5rem;
 }
 
@@ -122,9 +122,10 @@ body {
     /* margin-bottom: 58vh;
     margin-left: 70vw; */
     /* background: #f69666; */
-    width: 108vw;
-    top: -2.5vw;
-    left: -5vw;
+    width: 97rem;
+    /* top: -2.36rem; */
+    bottom: 0;
+    right: 0vw;
     position: absolute;
     pointer-events: none;
     /* border-radius: 50%; */
@@ -137,9 +138,10 @@ body {
     display: flex;
     position: absolute;
     pointer-events: none;
-    width: 108vw;
-    top: -2.5vw;
-    left: -3vw;
+    width: 97rem;
+    /* top: -2.36rem; */
+    bottom: 0;
+    left: -5.5rem;
 }
 
 #light-wave {
@@ -149,9 +151,10 @@ body {
     justify-content: flex-end;
     pointer-events: none;
     position: absolute;
-    width: 108vw;
-    top: -2.5vw;
-    left: -3vw;
+    width: 97rem;
+    /* top: -2.36rem; */
+    bottom: 0;
+    left: -5.5rem;
 }
 
 #dark-wave {
@@ -162,36 +165,41 @@ body {
     align-items: center;
     position: absolute;
     pointer-events: none;
-    width: 108vw;
-    top: -2.5vw;
-    left: -3vw;
+    width: 97rem;
+    /* top: -2.36rem; */
+    bottom: 0;
+    left: -5.5rem;
 }
 
 #home-content {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    /* justify-content: right; */
+    justify-content: flex-end;
     position: absolute;
-    z-index: 1000;
+    z-index: 7;
     top: 40vh;
-    left: 47vw;
+    right: 5vw;
+    /* text-align: right; */
+}
+
+#home-name {
     text-align: right;
+    font-size: 7vw;
 }
 
 #home-date {
-    font-size: 3.125rem;
+    font-size: 3.7vw;
 }
 
 #home-icons {
-
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
-    height: 3.125rem;
+    height: 3rem;
     width: 20rem;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
 
 }
 
@@ -490,11 +498,39 @@ body {
     opacity: 0;
 }
 
-#palm-and-leaves #palm {
+#palm {
     position: absolute;
     width: 97rem;
-    top: -4.25rem;
-    left: -5.67rem;
-    z-index: 5;
+    /* top: -4.25rem; */
+    bottom: 0;
+    left: -5.5rem;
+    z-index: 1000;
     pointer-events: none;
+}
+
+#mtn1 {
+    position: absolute;
+    pointer-events: none;
+    width: 97rem;
+    z-index: 4;
+    bottom: 0;
+    left: -5.5rem;
+}
+
+#mtn2 {
+    position: absolute;
+    pointer-events: none;
+    width: 97rem;
+    z-index: 4;
+    bottom: 0;
+    left: -5.5rem;
+}
+
+#mtn3 {
+    position: absolute;
+    pointer-events: none;
+    width: 97rem;
+    z-index: 4;
+    bottom: 0;
+    left: -5.5rem;
 }
