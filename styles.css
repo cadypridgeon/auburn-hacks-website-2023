@@ -208,7 +208,7 @@ body {
 
 #blue-gradient-bg {
     width: 100%;
-    height: calc(535vh - 5vw);
+    /* height: calc(5000rem / 3vh); */
     /* height: 535vh; */
     background-image: linear-gradient(180deg, #0D2C54 0%, #485E7A 27.08%, #517F92 53.12%, #92BFC6 85.42%, #A1C7BF 100%);
 }
@@ -220,6 +220,11 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    scroll-margin-top: -10rem;
+}
+
+#about-title {
+    z-index: 100;
 }
 
 #about-other {
@@ -228,6 +233,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
 #about-content {
@@ -249,6 +255,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    scroll-margin-top: 11rem;
 }
 
 #email-button {
@@ -303,7 +310,7 @@ body {
 
 #sand-at-bottom {
     width: 100%;
-    height: 40.94vh;
+    height: 20rem;
     background: #F2DDB2;
     display: flex;
     flex-direction: column;
@@ -347,8 +354,16 @@ body {
 .navbar-word {
     z-index: 10000;
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 800;
     color: var(--primary-dark);
+}
+
+.navbar-word .dark-text {
+    transition: .3s ease-in-out;
+}
+
+.navbar-word .dark-text:hover {
+    color: var(--accent);
 }
 
 .dark-text {
@@ -420,7 +435,10 @@ body {
     border-radius: 50%;
     margin-bottom: .8rem;
     margin-top: 2rem;
-    background-color: var(--secondary);
+    /* background-color: var(--secondary); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .time-holder {
@@ -737,11 +755,88 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
-    z-index: 420
+    z-index: 100;
+    margin-bottom: 25rem;
 }
 
 .countdown-timer {
     /* font-family: 'Ragile', 'serif'; */
     /* margin-top: 2rem; */
     font-size: 5vw;
+}
+
+#school-left {
+    position: absolute;
+    top: 95rem;
+    left: -10rem;
+    opacity: 50%;
+    width: 70rem;
+    z-index: 0;
+}
+
+#school-right {
+    position: absolute;
+    top: 59rem;
+    right: -39rem;
+    opacity: 50%;
+    width: 70rem;
+    z-index: 0;
+}
+
+#bubbles1 {
+    position: absolute;
+    top: 100rem;
+    right: 15rem;
+    opacity: 30%;
+    width: 20rem;
+    z-index: 0;
+    rotate: -30deg;
+    transform: scaleX(-1);
+}
+
+#turtle1 {
+    position: absolute;
+    top: 110rem;
+    right: -23rem;
+    opacity: 50%;
+    width: 45rem;
+    rotate: 8deg;
+    z-index: 0;
+}
+
+#tiger {
+    position: absolute;
+    bottom: -279rem;
+    right: -15rem;
+    opacity: 100%;
+    width: 60rem;
+    z-index: 0;
+}
+
+#jared {
+    background-image: url('assets/images/directors/jared.jpg');
+}
+
+#emily {
+    background-image: url('assets/images/directors/emily.jpg');
+}
+
+#ben {
+    background-image: url('assets/images/directors/ben.jpg');
+}
+
+#lori {
+    background-image: url('assets/images/directors/lori.jpg');
+}
+
+#olivia {
+    background-image: url('assets/images/directors/olivia.jpg');
+}
+
+#zac {
+    background-image: url('assets/images/directors/zac.jpg');
+}
+
+#cady {
+    background-image: url('assets/images/directors/cady.jpg');
 }
