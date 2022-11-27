@@ -2,7 +2,7 @@ $(document).ready(function () {
     var scroll_pos = 0;
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
-        if (scroll_pos > 1 && scroll_pos < 150) {
+        if (scroll_pos > 10 && scroll_pos < 150) {
             $("#home-bg").css('background-color', '#F4B8A1');
         }
         else if (scroll_pos > 150) {
@@ -32,3 +32,18 @@ window.addEventListener('scroll', function (e) {
     ocean.style.top = (value * .03 + 15.1) + "em";
     sun.style.top = (value * .05 + 7.5) + "em";
 })
+
+function showMenu() {
+    var menu = document.getElementById("menu-items");
+    var bg = document.getElementById("home-bg");
+    var bar = document.getElementById("navbar-mobile");
+    if (menu.style.visibility === "visible") {
+        bar.style.maxHeight = "10vh";
+        menu.style.visibility = "hidden";
+        // bg.style.height = "100vh";
+    } else {
+        bar.style.maxHeight = "50vh";
+        // bg.style.height = "130vh";
+        menu.style.visibility = "visible";
+    }
+}
