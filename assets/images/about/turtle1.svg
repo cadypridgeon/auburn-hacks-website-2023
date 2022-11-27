@@ -1,1 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="sealife" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2072.73 1166.38"><defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-3);}.cls-3{fill:url(#linear-gradient-4);}.cls-4{fill:url(#linear-gradient-2);}.cls-5{fill:url(#linear-gradient-5);}</style><linearGradient id="linear-gradient" x1="511.71" y1="298.79" x2="655.79" y2="298.79" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b4cac6"/><stop offset=".35" stop-color="#aac3be"/><stop offset=".93" stop-color="#91b3ab"/><stop offset="1" stop-color="#8eb1a9"/></linearGradient><linearGradient id="linear-gradient-2" x1="100.43" y1="189.19" x2="310.48" y2="189.19" xlink:href="#linear-gradient"/><linearGradient id="linear-gradient-3" x1="267.12" y1="374.1" x2="394.06" y2="374.1" xlink:href="#linear-gradient"/><linearGradient id="linear-gradient-4" x1="492.16" y1="404.06" x2="602.63" y2="404.06" xlink:href="#linear-gradient"/><linearGradient id="linear-gradient-5" x1="244.18" y1="271.99" x2="587.69" y2="271.99" xlink:href="#linear-gradient"/></defs><path class="cls-1" d="M523.71,295.43c32.67,3.71,132.52,84.57,132.08,20.99-.15-22.25-17.79-44.07-36.68-53.33-39.95-19.58-69.53,12.91-107.4,17.33l12,15Z"/><path class="cls-4" d="M275.27,292c14.42-58.6,65.52-122.88,9.74-174.68-42.46-39.43-173.61-51.81-183.9,27.67-8.04,62.1,57.85,74.04,99,65.92,19.23-3.8,47.3-18.17,59.55,6.75,11.35,23.09-26.65,50.57,6.61,65.34l9,9Z"/><path class="cls-2" d="M311.08,301.79c10.19,63.12,19.9,65.4,66.08,98.18,34.42,24.44,11.14,44.48-24.07,48.83-85.8,10.59-120.71-120.17-42-150v3Z"/><path class="cls-3" d="M548.1,337.79c-.2,40.22-2.1,46.29,23.84,68.92,10.38,9.05,27.91,14.28,30.32,29.93,4.1,26.65-27.16,36.1-48.16,33.16-23.79-3.34-40.71-23.78-51.07-45.16-15.99-32.97-15.45-56.98,9.07-83.85l36-3Z"/><path class="cls-5" d="M263.15,325.03c43.15,32.2,148.12,42.68,189.5,44.01,32.59,1.04,113.1,20.06,129.68-11.02,11.5-21.56,1.79-69.98-4.06-92.65-16.71-64.77-77.8-101.47-163.3-96.72-53.15,2.95-125.33,20.71-151.23,60.64-10.68,16.47-17.12,41.87-19.33,60.34-1.67,14,5.72,25.69,18.73,35.4Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="sealife" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 555.4 383.9" style="enable-background:new 0 0 555.4 383.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000046322916468564214300000010492814042839184284_);}
+	.st2{fill:url(#SVGID_00000046299280414631236880000015736204391590651038_);}
+	.st3{fill:url(#SVGID_00000002347756471582277130000006842268863660403091_);}
+	.st4{fill:url(#SVGID_00000063616547000604833390000011941639882271170968_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="411.2726" y1="780.8292" x2="555.3541" y2="780.8292" gradientTransform="matrix(1 0 0 -1 0 993.2455)">
+	<stop  offset="0" style="stop-color:#B4CAC6"/>
+	<stop  offset="0.35" style="stop-color:#AAC3BE"/>
+	<stop  offset="0.93" style="stop-color:#91B3AB"/>
+	<stop  offset="1" style="stop-color:#8EB1A9"/>
+</linearGradient>
+<path class="st0" d="M423.3,209.1c32.7,3.7,132.5,84.6,132.1,21c-0.2-22.2-17.8-44.1-36.7-53.3c-39.9-19.6-69.5,12.9-107.4,17.3
+	L423.3,209.1L423.3,209.1z"/>
+<linearGradient id="SVGID_00000027571363386546726130000003038418216858328705_" gradientUnits="userSpaceOnUse" x1="0" y1="890.4341" x2="210.0459" y2="890.4341" gradientTransform="matrix(1 0 0 -1 0 993.2455)">
+	<stop  offset="0" style="stop-color:#B4CAC6"/>
+	<stop  offset="0.35" style="stop-color:#AAC3BE"/>
+	<stop  offset="0.93" style="stop-color:#91B3AB"/>
+	<stop  offset="1" style="stop-color:#8EB1A9"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000027571363386546726130000003038418216858328705_);" d="M174.8,205.6
+	c14.4-58.6,65.5-122.9,9.7-174.7C142.1-8.5,11-20.9,0.7,58.6c-8,62.1,57.9,74,99,65.9c19.2-3.8,47.3-18.2,59.5,6.8
+	c11.4,23.1-26.6,50.6,6.6,65.3L174.8,205.6L174.8,205.6z"/>
+<linearGradient id="SVGID_00000156587843540876095030000012443409574409974150_" gradientUnits="userSpaceOnUse" x1="166.6844" y1="705.5186" x2="293.6236" y2="705.5186" gradientTransform="matrix(1 0 0 -1 0 993.2455)">
+	<stop  offset="0" style="stop-color:#B4CAC6"/>
+	<stop  offset="0.35" style="stop-color:#AAC3BE"/>
+	<stop  offset="0.93" style="stop-color:#91B3AB"/>
+	<stop  offset="1" style="stop-color:#8EB1A9"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000156587843540876095030000012443409574409974150_);" d="M210.6,215.4
+	c10.2,63.1,19.9,65.4,66.1,98.2c34.4,24.4,11.1,44.5-24.1,48.8c-85.8,10.6-120.7-120.2-42-150L210.6,215.4L210.6,215.4z"/>
+<linearGradient id="SVGID_00000067955576116253928330000013455718652338282392_" gradientUnits="userSpaceOnUse" x1="391.7211" y1="675.57" x2="502.1886" y2="675.57" gradientTransform="matrix(1 0 0 -1 0 993.2455)">
+	<stop  offset="0" style="stop-color:#B4CAC6"/>
+	<stop  offset="0.35" style="stop-color:#AAC3BE"/>
+	<stop  offset="0.93" style="stop-color:#91B3AB"/>
+	<stop  offset="1" style="stop-color:#8EB1A9"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000067955576116253928330000013455718652338282392_);" d="M447.7,251.4c-0.2,40.2-2.1,46.3,23.8,68.9
+	c10.4,9,27.9,14.3,30.3,29.9c4.1,26.6-27.2,36.1-48.2,33.2c-23.8-3.3-40.7-23.8-51.1-45.2c-16-33-15.5-57,9.1-83.9L447.7,251.4
+	L447.7,251.4z"/>
+<linearGradient id="SVGID_00000000196653924313970450000012327942831214290085_" gradientUnits="userSpaceOnUse" x1="143.7389" y1="807.6292" x2="487.2523" y2="807.6292" gradientTransform="matrix(1 0 0 -1 0 993.2455)">
+	<stop  offset="0" style="stop-color:#B4CAC6"/>
+	<stop  offset="0.35" style="stop-color:#AAC3BE"/>
+	<stop  offset="0.93" style="stop-color:#91B3AB"/>
+	<stop  offset="1" style="stop-color:#8EB1A9"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000000196653924313970450000012327942831214290085_);" d="M162.7,238.7
+	c43.1,32.2,148.1,42.7,189.5,44c32.6,1,113.1,20.1,129.7-11c11.5-21.6,1.8-70-4.1-92.6C461.1,114.2,400,77.5,314.5,82.3
+	c-53.1,2.9-125.3,20.7-151.2,60.6c-10.7,16.5-17.1,41.9-19.3,60.3C142.3,217.3,149.7,228.9,162.7,238.7L162.7,238.7z"/>
+</svg>

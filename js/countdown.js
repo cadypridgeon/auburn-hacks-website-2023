@@ -1,3 +1,6 @@
+// Credits: HackMIT
+// https://hackmit.org/
+
 var endDate = new Date("Feb 11, 2023 11:00:00").getTime();
 
 var timer = setInterval(function () {
