@@ -68,7 +68,7 @@ body {
 #gradient-bg {
     width: 100%;
     position: relative;
-    z-index: 9;
+    z-index: 100;
     /* height: calc(5000rem / 3vh); */
     /* height: 800vh; */
     background-image: linear-gradient(180deg, #0D2C54 0%, #485E7A 27.08%, #517F92 53.12%, #92BFC6 85.42%, #A1C7BF 100%);
@@ -363,6 +363,12 @@ body {
     color: var(--dark)
 }
 
+@media screen and (min-width: 740px) {
+    #home-content-mobile #home-name {
+        font-size: 9vw;
+    }
+}
+
 #home-content-mobile #home-date {
     font-size: 8vw;
     color: var(--dark)
@@ -460,7 +466,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 99;
     pointer-events: none;
     width: 100vw;
     min-width: 90em;
@@ -1268,11 +1274,13 @@ body {
     transition: transform .3s ease-in-out;
     pointer-events: visible;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     /* display: flex; */
 }
 
 .sponsor:hover {
     transform: scale(1.03);
+    box-shadow: 0 0 1em rgb(255, 255, 255, .3);
 }
 
 .sponsor-container {
@@ -1448,7 +1456,14 @@ body {
     height: 100%;
     color: var(--primary);
     font-size: 1.25rem;
+    /* transition: transform 0.3s ease-in-out; */
+    /* cursor: pointer; */
 }
+
+/* .director:hover {
+    transform: scale(1.03);
+    text-shadow: 5px 10px 18px #888888;
+} */
 
 #directors-container {
     display: flex;
@@ -1471,6 +1486,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.profile-pic:hover {
+    box-shadow: 0 0 2em rgb(255, 255, 255, .5);
+    transform: scale(1.03);
 }
 
 #jared {
@@ -1699,7 +1721,7 @@ body {
 
 #chest {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     width: 22.9375em;
     bottom: -9em;
     left: 25vw;
@@ -1708,7 +1730,7 @@ body {
 
 #tiger {
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     width: 17.625em;
     bottom: -9em;
     right: 27vw;
@@ -1834,18 +1856,22 @@ body {
 
 #footer-assets-mobile #chest {
     position: absolute;
-    z-index: 0;
-    width: 50vw;
+    width: 40vw;
     bottom: -20vh;
-    left: 4vw;
+    left: 10vw;
 }
 
 #footer-assets-mobile #tiger {
     position: absolute;
-    z-index: 0;
-    width: 40vw;
+    width: 35vw;
     bottom: -20vh;
-    right: 4vw;
+    right: 10vw;
+}
+
+@media screen and (min-width: 570px) {
+    #footer-assets-mobile #tiger {
+        width: 30vw;
+    }
 }
 
 #bottom-text {
@@ -1925,4 +1951,22 @@ body {
 #bottom-icon-container-mobile .bottom-icon a img {
     width: 11vw;
     height: 11vw;
+}
+
+/* ----- scavenger hunt ---------- */
+
+#treasure-map {
+    background: var(--secondary);
+    border-radius: 1em;
+    width: 80vw;
+    height: 80vh;
+    z-index: 10000000;
+    /* position: fixed; */
+    left: 10vw;
+    bottom: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
