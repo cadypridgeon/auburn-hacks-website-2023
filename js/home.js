@@ -27,10 +27,10 @@ window.addEventListener('scroll', function (e) {
     mtn1.style.top = (value * .01 + 17) + "em";
     mtn2.style.top = (value * .02 + 3) + "em";
     mtn3.style.top = (value * .03 + 8) + "em";
-    sand.style.top = (value * .03 + 15.1) + "em";
-    waves.style.top = (value * .03 + 15.1) + "em";
-    ocean.style.top = (value * .03 + 15.1) + "em";
-    sun.style.top = (value * .05 + 7.5) + "em";
+    sand.style.top = (value * .032 + 15.1) + "em";
+    waves.style.top = (value * .032 + 15.1) + "em";
+    ocean.style.top = (value * .032 + 15.1) + "em";
+    sun.style.top = (value * .052 + 7.5) + "em";
 })
 
 function showMenu() {
