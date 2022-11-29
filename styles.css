@@ -374,6 +374,12 @@ body {
     color: var(--dark)
 }
 
+@media screen and (min-width: 740px) {
+    #home-content-mobile #home-date {
+        font-size: 6vw;
+    }
+}
+
 #home-content-mobile #home-icons {
     flex-direction: row;
     margin-top: 2em;
@@ -673,6 +679,12 @@ body {
     }
 }
 
+@media screen and (min-width: 740px) {
+    .title-mobile {
+        font-size: 9vw;
+    }
+}
+
 .content {
     display: flex;
     width: 75.59vw;
@@ -710,6 +722,12 @@ body {
 @media (max-width:1020px) {
     .content-mobile {
         display: flex
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .content-mobile {
+        font-size: 3vw;
     }
 }
 
@@ -790,14 +808,15 @@ body {
 
 #about-date {
     color: var(--primary);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
 }
 
 #school-left {
     position: absolute;
-    top: 48em;
+    /* top: 48em; */
+    top: 58em;
     left: -10em;
     opacity: 50%;
     width: 40em;
@@ -819,7 +838,8 @@ body {
 
 #bubbles1 {
     position: absolute;
-    top: 50em;
+    /* top: 50em; */
+    top: 60em;
     right: 20em;
     opacity: 30%;
     width: 3.8125em;
@@ -831,7 +851,8 @@ body {
 
 #turtle1 {
     position: absolute;
-    top: 58em;
+    /* top: 58em; */
+    top: 68em;
     right: 5em;
     opacity: 50%;
     width: 12em;
@@ -859,6 +880,12 @@ body {
     font-size: 5vw;
     text-align: center;
     font-weight: bold;
+}
+
+@media screen and (min-width: 740px) {
+    #about-mobile #about-date {
+        font-size: 3.5vw;
+    }
 }
 
 /* #about-mobile #school-left {
@@ -1132,7 +1159,7 @@ body {
 
 #faq-mobile .faq-div {
     width: 50%;
-    flex: 1 1 20vw;
+    flex: 1 1 30vw;
     text-align: left;
     padding-bottom: 4vh;
     padding-left: 5vw;
@@ -1146,6 +1173,12 @@ body {
     color: var(--primary);
 }
 
+@media screen and (min-width: 740px) {
+    #faq-mobile .faq-header {
+        font-size: 7vw;
+    }
+}
+
 #faq-mobile .faq-bullet {
     display: flex
 }
@@ -1153,6 +1186,12 @@ body {
 #faq-mobile .flower {
     width: 5vw;
     display: inline-block
+}
+
+@media screen and (min-width: 740px) {
+    #faq-mobile .flower {
+        width: 3vw;
+    }
 }
 
 #faq-mobile .faq-question {
@@ -1164,6 +1203,12 @@ body {
     font-weight: bold;
     color: var(--primary);
     transition: color .3s ease-in-out;
+}
+
+@media screen and (min-width: 740px) {
+    #faq-mobile .faq-question {
+        font-size: 3vw;
+    }
 }
 
 #faq-mobile .faq-question:hover {
@@ -1185,6 +1230,12 @@ body {
 #faq-mobile .faq-answer p {
     padding-bottom: 2vw;
     font-size: 4vw;
+}
+
+@media screen and (min-width: 740px) {
+    #faq-mobile .faq-answer p {
+        font-size: 2.5vw;
+    }
 }
 
 @keyframes spin {
@@ -1296,7 +1347,8 @@ body {
     position: absolute;
     z-index: 0;
     width: 16.59375em;
-    top: 208em;
+    /* top: 208em; */
+    top: 144em;
     left: 10em;
     opacity: .7;
     rotate: -17deg;
@@ -1308,7 +1360,8 @@ body {
     z-index: 0;
     width: 3.2325em;
     left: 8em;
-    top: 225em;
+    /* top: 225em; */
+    top: 161em;
     opacity: .3;
     rotate: -128deg;
     animation: float 4s infinite;
@@ -1319,7 +1372,8 @@ body {
     z-index: 0;
     width: 3.2325em;
     left: 2em;
-    top: 227em;
+    /* top: 227em; */
+    top: 163em;
     opacity: .3;
     rotate: -128deg;
     animation: float 4s infinite;
@@ -1330,7 +1384,8 @@ body {
     z-index: 0;
     width: 22.3125em;
     right: 3em;
-    top: 206em;
+    /* top: 206em; */
+    top: 142em;
     opacity: .7;
     animation: float-offset 6s infinite;
 }
@@ -1340,7 +1395,8 @@ body {
     z-index: 0;
     width: 3.2325em;
     right: 7em;
-    top: 202em;
+    /* top: 202em; */
+    top: 138em;
     opacity: .3;
     rotate: -128deg;
     animation: float-offset 4s infinite;
@@ -1351,7 +1407,8 @@ body {
     z-index: 0;
     width: 3.2325em;
     right: 0em;
-    top: 200em;
+    /* top: 200em; */
+    top: 136em;
     opacity: .3;
     rotate: -128deg;
     animation: float-offset 4s infinite;
@@ -1470,6 +1527,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     width: 90vw;
+    z-index: 3;
 }
 
 .name {
@@ -1528,27 +1586,42 @@ body {
     z-index: 0;
     width: 30.125em;
     left: 12em;
-    top: 285em;
+    /* top: 285em; */
+    top: 215em;
     opacity: .8;
     animation: float-offset 6s infinite;
 }
+
+/* @media screen and (max-width: 1064px) and (min-width: 1020px) {
+    #scuba2 {
+        top: 220em;
+    }
+} */
 
 #eye {
     position: absolute;
     z-index: 0;
     width: 9.6875em;
-    top: 288em;
+    /* top: 288em; */
+    top: 220em;
     right: 14em;
     opacity: .8;
     rotate: 30deg;
     animation: float 4s infinite;
 }
 
+/* @media screen and (max-width: 1064px) and (min-width: 1020px) {
+    #eye {
+        top: 225em;
+    }
+} */
+
 #bubbles9 {
     position: absolute;
     z-index: 0;
     width: 8.216875em;
-    top: 293em;
+    /* top: 293em; */
+    top: 229em;
     left: 3em;
     opacity: .3;
     transform: scaleX(-1);
@@ -1559,7 +1632,8 @@ body {
     position: absolute;
     z-index: 0;
     width: 8.216875em;
-    top: 310em;
+    /* top: 310em; */
+    top: 246em;
     left: 3em;
     opacity: .3;
     rotate: -17deg;
@@ -1571,7 +1645,8 @@ body {
     position: absolute;
     z-index: 0;
     width: 8.216875em;
-    top: 327em;
+    /* top: 327em; */
+    top: 263em;
     left: 3em;
     opacity: .3;
     transform: scaleX(-1);
@@ -1582,7 +1657,8 @@ body {
     position: absolute;
     z-index: 0;
     width: 8.216875em;
-    top: 293em;
+    /* top: 293em; */
+    top: 229em;
     right: 3em;
     opacity: .3;
     animation: float 8s infinite;
@@ -1592,7 +1668,8 @@ body {
     position: absolute;
     z-index: 0;
     width: 8.216875em;
-    top: 310em;
+    /* top: 310em; */
+    top: 246em;
     right: 3em;
     opacity: .3;
     rotate: 17deg;
@@ -1603,7 +1680,8 @@ body {
     position: absolute;
     z-index: 0;
     width: 8.216875em;
-    top: 327em;
+    /* top: 327em; */
+    top: 263em;
     right: 3em;
     opacity: .3;
     animation: float 8s infinite;
@@ -1640,10 +1718,17 @@ body {
     /* width: 12.5rem; */
     /* margin-left: 3rem;
     margin-right: 3rem; */
-    margin: 0 10vw;
+    /* margin: 0 4vw; */
+    /* padding: 0 4vw; */
     height: 100%;
     color: var(--primary);
     font-size: 5vw;
+}
+
+@media screen and (min-width: 740px) {
+    #directors-mobile .director {
+        font-size: 3vw;
+    }
 }
 
 #directors-mobile #directors-container {
@@ -1663,6 +1748,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media screen and (min-width: 740px) {
+    #directors-mobile .profile-pic {
+        width: 20vw;
+        height: 20vw
+    }
 }
 
 #directors-mobile #jared {
@@ -1949,8 +2041,15 @@ body {
 }
 
 #bottom-icon-container-mobile .bottom-icon a img {
-    width: 11vw;
-    height: 11vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+@media screen and (min-width: 740px) {
+    #bottom-icon-container-mobile .bottom-icon a img {
+        width: 6vw;
+        height: 6vw;
+    }
 }
 
 /* ----- scavenger hunt ---------- */
