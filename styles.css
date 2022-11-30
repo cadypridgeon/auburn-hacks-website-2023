@@ -50,6 +50,7 @@ html {
 
 body {
     width: 100vw;
+    height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -63,6 +64,7 @@ body {
     background: #f7c79e;
     display: flex;
     transition: background-color 1s ease-in-out;
+    background-attachment: scroll;
 }
 
 #gradient-bg {
