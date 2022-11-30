@@ -60,12 +60,11 @@ body {
 
 #home-bg {
     width: 100vw;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+    height: 100%;
     background: #f7c79e;
     display: flex;
     transition: background-color 1s ease-in-out;
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
 }
 
 /* @media (max-width:1020px) {
