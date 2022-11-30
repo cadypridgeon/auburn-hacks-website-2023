@@ -1144,21 +1144,21 @@ body {
     animation: float 4s infinite;
 }
 
-.section#faq-mobile {
+.section-mobile#faq-mobile {
     min-height: 0;
 }
 
 @media (max-width:1020px) {
-    .section#faq-mobile {
+    .section-mobile#faq-mobile {
         display: flex
     }
 }
 
-.section#faq-mobile a {
+.section-mobile#faq-mobile a {
     color: #f5c2ae;
 }
 
-.section#faq-mobile a:visited {
+.section-mobile#faq-mobile a:visited {
     color: var(--accent);
 }
 
