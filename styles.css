@@ -61,7 +61,8 @@ body {
 
 #home-bg {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
+    max-height: -webkit-fill-available;
     background: #f7c79e;
     display: flex;
     transition: background-color 1s ease-in-out;

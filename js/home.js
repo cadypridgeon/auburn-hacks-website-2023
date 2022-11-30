@@ -48,9 +48,9 @@ function showMenu() {
     }
 }
 
-const resizer = () => {
-    document.getElementById("home-bg").style.height = window.innerHeight + "px";
-}
+// const resizer = () => {
+//     document.getElementById("home-bg").style.height = window.innerHeight + "px";
+// }
 
-window.addEventListener("resize", (_e) => resizer());
-document.addEventListener("DOMContentLoaded", (_e) => resizer());
+// window.addEventListener("resize", (_e) => resizer());
+// document.addEventListener("DOMContentLoaded", (_e) => resizer());
