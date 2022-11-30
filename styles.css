@@ -586,7 +586,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 99;
     pointer-events: none;
     width: 120vw;
     overflow: hidden;
@@ -816,7 +816,7 @@ body {
 #school-left {
     position: absolute;
     /* top: 48em; */
-    top: 58em;
+    top: 62em;
     left: -10em;
     opacity: 50%;
     width: 40em;
@@ -839,7 +839,7 @@ body {
 #bubbles1 {
     position: absolute;
     /* top: 50em; */
-    top: 60em;
+    top: 62em;
     right: 20em;
     opacity: 30%;
     width: 3.8125em;
@@ -852,7 +852,7 @@ body {
 #turtle1 {
     position: absolute;
     /* top: 58em; */
-    top: 68em;
+    top: 70em;
     right: 5em;
     opacity: 50%;
     width: 12em;
@@ -918,6 +918,14 @@ body {
     .section#faq {
         display: none
     }
+}
+
+.section#faq a {
+    color: #f5c2ae;
+}
+
+.section#faq a:visited {
+    color: var(--accent);
 }
 
 #faq-content {
@@ -1012,7 +1020,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 10.9375em;
-    top: 114em;
+    top: 135em;
     left: 0;
     opacity: 50%;
     animation: float 2s infinite;
@@ -1022,7 +1030,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 4.875em;
-    top: 100em;
+    top: 121em;
     left: 2em;
     opacity: 30%;
     rotate: -23deg;
@@ -1034,7 +1042,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 4.875em;
-    top: 90em;
+    top: 111em;
     left: 0em;
     opacity: 30%;
     rotate: 17deg;
@@ -1046,7 +1054,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 4.875em;
-    top: 80em;
+    top: 101em;
     left: -2em;
     opacity: 30%;
     rotate: -23deg;
@@ -1058,7 +1066,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 6.05375em;
-    top: 80em;
+    top: 103em;
     right: 3em;
     rotate: -7deg;
     opacity: 50%;
@@ -1069,7 +1077,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 10.703125em;
-    top: 98em;
+    top: 123em;
     right: 2em;
     rotate: 16deg;
     opacity: 50%;
@@ -1080,7 +1088,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 12.5625em;
-    top: 125em;
+    top: 165em;
     left: 8em;
     opacity: 60%;
     animation: float-offset 8s infinite;
@@ -1090,7 +1098,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 7.25em;
-    top: 118em;
+    top: 158em;
     left: 22em;
     opacity: 60%;
     animation: float-offset 6s infinite;
@@ -1100,7 +1108,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 4em;
-    top: 123em;
+    top: 163em;
     left: 30em;
     opacity: 60%;
     animation: float-offset 4s infinite;
@@ -1110,7 +1118,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 6.5em;
-    top: 123em;
+    top: 163em;
     right: 30em;
     opacity: .6;
     animation: float 2s infinite;
@@ -1120,7 +1128,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 9.5em;
-    top: 118em;
+    top: 158em;
     right: 18em;
     opacity: .6;
     animation: float 3s infinite;
@@ -1130,7 +1138,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 10.9375em;
-    top: 125em;
+    top: 165em;
     right: 6em;
     opacity: .6;
     animation: float 4s infinite;
@@ -1144,6 +1152,14 @@ body {
     .section#faq-mobile {
         display: flex
     }
+}
+
+.section#faq-mobile a {
+    color: #f5c2ae;
+}
+
+.section#faq-mobile a:visited {
+    color: var(--accent);
 }
 
 #faq-mobile #faq-content {
@@ -1348,7 +1364,7 @@ body {
     z-index: 0;
     width: 16.59375em;
     /* top: 208em; */
-    top: 144em;
+    top: 189em;
     left: 10em;
     opacity: .7;
     rotate: -17deg;
@@ -1361,7 +1377,7 @@ body {
     width: 3.2325em;
     left: 8em;
     /* top: 225em; */
-    top: 161em;
+    top: 206em;
     opacity: .3;
     rotate: -128deg;
     animation: float 4s infinite;
@@ -1373,7 +1389,7 @@ body {
     width: 3.2325em;
     left: 2em;
     /* top: 227em; */
-    top: 163em;
+    top: 208em;
     opacity: .3;
     rotate: -128deg;
     animation: float 4s infinite;
@@ -1385,7 +1401,7 @@ body {
     width: 22.3125em;
     right: 3em;
     /* top: 206em; */
-    top: 142em;
+    top: 187em;
     opacity: .7;
     animation: float-offset 6s infinite;
 }
@@ -1396,7 +1412,7 @@ body {
     width: 3.2325em;
     right: 7em;
     /* top: 202em; */
-    top: 138em;
+    top: 183em;
     opacity: .3;
     rotate: -128deg;
     animation: float-offset 4s infinite;
@@ -1408,7 +1424,7 @@ body {
     width: 3.2325em;
     right: 0em;
     /* top: 200em; */
-    top: 136em;
+    top: 181em;
     opacity: .3;
     rotate: -128deg;
     animation: float-offset 4s infinite;
@@ -1587,7 +1603,7 @@ body {
     width: 30.125em;
     left: 12em;
     /* top: 285em; */
-    top: 215em;
+    top: 260em;
     opacity: .8;
     animation: float-offset 6s infinite;
 }
@@ -1603,7 +1619,7 @@ body {
     z-index: 0;
     width: 9.6875em;
     /* top: 288em; */
-    top: 220em;
+    top: 265em;
     right: 14em;
     opacity: .8;
     rotate: 30deg;
@@ -1621,7 +1637,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 293em; */
-    top: 229em;
+    top: 274em;
     left: 3em;
     opacity: .3;
     transform: scaleX(-1);
@@ -1633,7 +1649,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 310em; */
-    top: 246em;
+    top: 291em;
     left: 3em;
     opacity: .3;
     rotate: -17deg;
@@ -1646,7 +1662,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 327em; */
-    top: 263em;
+    top: 308em;
     left: 3em;
     opacity: .3;
     transform: scaleX(-1);
@@ -1658,7 +1674,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 293em; */
-    top: 229em;
+    top: 274em;
     right: 3em;
     opacity: .3;
     animation: float 8s infinite;
@@ -1669,7 +1685,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 310em; */
-    top: 246em;
+    top: 291em;
     right: 3em;
     opacity: .3;
     rotate: 17deg;
@@ -1681,7 +1697,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 327em; */
-    top: 263em;
+    top: 308em;
     right: 3em;
     opacity: .3;
     animation: float 8s infinite;
@@ -2055,11 +2071,63 @@ body {
 /* ----- scavenger hunt ---------- */
 
 #treasure-map {
-    background: var(--secondary);
-    border-radius: 1em;
+    background-image: url("assets/images/scavenger/map.svg");
     width: 80vw;
     height: 80vh;
-    z-index: 10000000;
+    z-index: 100;
+    /* position: fixed; */
+    left: 10vw;
+    bottom: 10vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width:1020px) {
+    #treasure-map {
+        display: none
+    }
+}
+
+#treasure-title {
+    font-size: 6vw;
+    color: var(--dark);
+    margin-bottom: 3vh;
+}
+
+#treasure-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+    background: var(--dark);
+    box-sizing: border-box;
+    padding: 1vw 5vw;
+    border-radius: 0.5rem;
+    transition: background .3s ease-in-out;
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+
+#treasure-button:hover {
+    background: #CF7756;
+}
+
+#treasure-passcode {
+    font-size: 10vw;
+    color: var(--dark);
+}
+
+#treasure-map-mobile {
+    width: 80vw;
+    height: 80vh;
+    z-index: 100;
     /* position: fixed; */
     left: 10vw;
     bottom: 10vh;
@@ -2067,5 +2135,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("assets/images/scavenger/map.svg");
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+@media (max-width:1020px) {
+    #treasure-map-mobile {
+        display: flex;
+    }
 }
