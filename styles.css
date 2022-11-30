@@ -533,7 +533,14 @@ body {
     }
 }
 
-#ocean-mobile {
+#mobile {
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+/* #ocean-mobile {
     position: absolute;
     pointer-events: none;
     top: 70vh;
@@ -550,7 +557,7 @@ body {
     top: 70vh;
     left: 0;
     transition: transform 0.5s;
-    /* animation: move-waves-mobile 4s infinite; */
+    animation: move-waves-mobile 4s infinite;
 }
 
 #sand-mobile {
@@ -561,7 +568,7 @@ body {
     top: 70vh;
     left: -14vw;
     transition: transform 0.5s;
-    /* animation: move-waves-mobile 4s infinite; */
+    animation: move-waves-mobile 4s infinite;
 }
 
 @keyframes move-waves-mobile {
@@ -615,11 +622,11 @@ body {
     width: 20vh;
     top: 60vh;
     right: 7vh;
-    position: absolute;
-    /* position: fixed; */
+    position: fixed;
     pointer-events: none;
 }
 
+*/
 /* ---------- sections ---------- */
 
 .section {
