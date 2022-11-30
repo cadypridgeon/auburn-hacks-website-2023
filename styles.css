@@ -61,17 +61,18 @@ body {
 #home-bg {
     width: 100vw;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     background: #f7c79e;
     display: flex;
     transition: background-color 1s ease-in-out;
     background-attachment: scroll;
 }
 
-@media (max-width:1020px) {
+/* @media (max-width:1020px) {
     #home-bg {
         height: calc(100vh - 70px);
     }
-}
+} */
 
 #gradient-bg {
     width: 100%;
