@@ -48,10 +48,9 @@ function showMenu() {
     }
 }
 
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+const resizer = () => {
+    document.getElementById("home-bg").style.height = window.innerHeight + "px";
+}
 
-window.addEventListener('resize', () => {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
+window.addEventListener("resize", (_e) => resizer());
+document.addEventListener("DOMContentLoaded", (_e) => resizer());
