@@ -47,10 +47,3 @@ function showMenu() {
         menu.style.visibility = "visible";
     }
 }
-
-// const resizer = () => {
-//     document.getElementById("home-bg").style.height = window.innerHeight + "px";
-// }
-
-// window.addEventListener("resize", (_e) => resizer());
-// document.addEventListener("DOMContentLoaded", (_e) => resizer());

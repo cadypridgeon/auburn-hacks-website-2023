@@ -1,1157 +1,1479 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,
+            maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>Auburn Hacks 2023</title>
+        <link rel="icon" href="./favicon.ico?" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <!-- <link rel="stylesheet" href="/auburn-hacks-website/styles.css" /> -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <title>Auburn Hacks 2023</title>
-    <link rel="icon" href="./favicon.ico?" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <!-- <link rel="stylesheet" href="/auburn-hacks-website/styles.css" /> -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Poppins" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            />
+        <meta name="msapplication-TileColor" content="#338c9a" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="description" content="Auburn Hacks 2023" />
+        <meta name="author" content="Cady Pridgeon, Ben Fisk, and Liam Stewart"
+            />
+        <meta property="og:title" content="Auburn Hacks 2023" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Join us at Auburn Hacks
+            February 11-12, 2023!" />
+        <meta property="og:image" content="./favicon.ico" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <meta name="msapplication-TileColor" content="#338c9a" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content="Auburn Hacks 2023" />
-    <meta name="author" content="Cady Pridgeon, Ben Fisk, and Liam Stewart" />
-    <meta property="og:title" content="Auburn Hacks 2023" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Join us at Auburn Hacks February 11-12, 2023!" />
-    <meta property="og:image" content="./favicon.ico" />
+        <script
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-</head>
+    <a id="mlh-trust-badge"
+        style="display: block;max-width: 90px;min-width: 60px;position:
+        absolute;right: 32px;top: 0;width: 10%;z-index: 10000;"
+        href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white"
+        target="_blank" tabindex="2"><img
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-gray.svg"
+            alt="Major League Hacking 2023 Hackathon Season" style="width: 100%"
+            /></a>
 
-<a id="mlh-trust-badge"
-    style="display: block;max-width: 90px;min-width: 60px;position: absolute;right: 32px;top: 0;width: 10%;z-index: 10000;"
-    href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white"
-    target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-gray.svg"
-        alt="Major League Hacking 2023 Hackathon Season" style="width: 100%" /></a>
+    <body>
+        <div id="home-bg">
+            <div id="navbar">
+                <div id="left-spacer"></div>
+                <div id="mid-spacer">
+                    <div id="home-link">
+                        <a href="#home-bg" class="navbar-word" tabindex="1">HOME</a>
+                    </div>
+                    <div id="about-link">
+                        <a href="#about" class="navbar-word" tabindex="1">ABOUT</a>
+                    </div>
+                    <div id="faq-link">
+                        <a href="#faq" class="navbar-word" tabindex="1">FAQ</a>
+                    </div>
+                    <div id="sponsors-link">
+                        <a href="#sponsors" class="navbar-word" tabindex="1">SPONSORS</a>
+                    </div>
+                    <div id="directors-link">
+                        <a href="#directors" class="navbar-word" tabindex="1">DIRECTORS</a>
+                    </div>
+                    <div id="register-link">
+                        <a id="register-button" class="navbar-word"
+                            target="_blank"
+                            href="https://aub.ie/auhacksregister"
+                            tabindex="1">REGISTER</a>
+                    </div>
+                </div>
+                <div id="right-spacer"></div>
+            </div>
 
-<body>
-    <div id="home-bg">
-        <div id="navbar">
-            <div id="left-spacer"></div>
-            <div id="mid-spacer">
-                <div id="home-link">
-                    <a href="#home-bg" class="navbar-word">HOME</a>
-                </div>
-                <div id="about-link">
-                    <a href="#about" class="navbar-word">ABOUT</a>
-                </div>
-                <div id="faq-link">
-                    <a href="#faq" class="navbar-word">FAQ</a>
-                </div>
-                <div id="sponsors-link">
-                    <a href="#sponsors" class="navbar-word">SPONSORS</a>
-                </div>
-                <div id="directors-link">
-                    <a href="#directors" class="navbar-word">DIRECTORS</a>
-                </div>
-                <div id="register-link">
-                    <a id="register-button" class="navbar-word" target="_blank"
-                        href="https://aub.ie/auhacksregister">REGISTER</a>
+            <div id="navbar-mobile">
+                <div class="menu">
+                    <div id="menu-btn">
+                        <input type="checkbox" id="checkbox2" class="checkbox2
+                            visuallyHidden" onclick="showMenu()">
+                        <label for="checkbox2">
+                            <div class="hamburger hamburger2">
+                                <span class="bar bar1"></span>
+                                <span class="bar bar2"></span>
+                                <span class="bar bar3"></span>
+                                <span class="bar bar4"></span>
+                            </div>
+                        </label>
+                    </div>
+                    <div id="menu-items">
+                        <a href="#home">HOME</a>
+                        <a href="#about-mobile">ABOUT</a>
+                        <a href="#faq-mobile">FAQ</a>
+                        <a href="#sponsors-mobile">SPONSORS</a>
+                        <a href="#directors-mobile">DIRECTORS</a>
+                        <a target="_blank"
+                            href="https://aub.ie/auhacksregister">REGISTER</a>
+                    </div>
                 </div>
             </div>
-            <div id="right-spacer"></div>
-        </div>
 
-        <div id="navbar-mobile">
-            <div class="menu">
-                <div id="menu-btn">
-                    <input type="checkbox" id="checkbox2" class="checkbox2 visuallyHidden" onclick="showMenu()">
-                    <label for="checkbox2">
-                        <div class="hamburger hamburger2">
-                            <span class="bar bar1"></span>
-                            <span class="bar bar2"></span>
-                            <span class="bar bar3"></span>
-                            <span class="bar bar4"></span>
-                        </div>
-                    </label>
-                </div>
-                <div id="menu-items">
-                    <a href="#home">HOME</a>
-                    <a href="#about-mobile">ABOUT</a>
-                    <a href="#faq-mobile">FAQ</a>
-                    <a href="#sponsors-mobile">SPONSORS</a>
-                    <a href="#directors-mobile">DIRECTORS</a>
-                    <a target="_blank" href="https://aub.ie/auhacksregister">REGISTER</a>
+            <div id="home-content">
+                <h1 id="home-name">AUBURN HACKS</h1>
+                <h3 id="home-date">2/11/23-2/12/23</h3>
+                <div id="home-icons">
+                    <div class="top-icon">
+                        <a href="https://www.instagram.com/auburnhacks/?hl=en"
+                            target="_blank" tabindex="0">
+                            <img src="assets/icons/instagram-white-outline.svg"
+                                alt="Instagram Icon" />
+                            <img src="assets/icons/instagram-gray-outline.svg"
+                                alt="Instagram Icon" />
+                        </a>
+                    </div>
+                    <div class="top-icon">
+                        <a href="https://www.facebook.com/AuburnHacks/"
+                            target="_blank" tabindex="0">
+                            <img src="assets/icons/facebook-white-outline.svg"
+                                alt="Facebook Icon" />
+                            <img src="assets/icons/facebook-gray-outline.svg"
+                                alt="Facebook Icon" />
+                        </a>
+                    </div>
+                    <div class="top-icon">
+                        <a href="https://twitter.com/auburnhacks"
+                            target="_blank" tabindex="0">
+                            <img src="assets/icons/twitter-white-outline.svg"
+                                alt="Twitter Icon" />
+                            <img src="assets/icons/twitter-gray-outline.svg"
+                                alt="Twitter Icon" />
+                        </a>
+                    </div>
+                    <div class="top-icon">
+                        <a href="https://www.linkedin.com/company/auburnhacks/"
+                            target="_blank" tabindex="0">
+                            <img src="assets/icons/linkedin-white-outline.svg"
+                                alt="Linkedin Icon" />
+                            <img src="assets/icons/linkedin-gray-outline.svg"
+                                alt="Linkedin Icon" />
+                        </a>
+                    </div>
+                    <div class="top-icon">
+                        <a href="mailto:staff@auburnhacks.com" target="_blank"
+                            tabindex="0">
+                            <img src="assets/icons/email-white-outline.svg"
+                                alt="Email Icon" />
+                            <img src="assets/icons/email-gray-outline.svg"
+                                alt="Email Icon" />
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div id="home-content">
-            <h1 id="home-name">AUBURN HACKS</h1>
-            <h3 id="home-date">2/11/23-2/12/23</h3>
-            <div id="home-icons">
-                <div class="top-icon">
-                    <a href="https://www.instagram.com/auburnhacks/?hl=en" target="_blank">
-                        <img src="assets/icons/instagram-white-outline.svg" alt="Instagram Icon" />
-                        <img src="assets/icons/instagram-gray-outline.svg" alt="Instagram Icon" />
-                    </a>
-                </div>
-                <div class="top-icon">
-                    <a href="https://www.facebook.com/AuburnHacks/" target="_blank">
-                        <img src="assets/icons/facebook-white-outline.svg" alt="Facebook Icon" />
-                        <img src="assets/icons/facebook-gray-outline.svg" alt="Facebook Icon" />
-                    </a>
-                </div>
-                <div class="top-icon">
-                    <a href="https://twitter.com/auburnhacks" target="_blank">
-                        <img src="assets/icons/twitter-white-outline.svg" alt="Twitter Icon" />
-                        <img src="assets/icons/twitter-gray-outline.svg" alt="Twitter Icon" />
-                    </a>
-                </div>
-                <div class="top-icon">
-                    <a href="https://www.linkedin.com/company/auburnhacks/" target="_blank">
-                        <img src="assets/icons/linkedin-white-outline.svg" alt="Linkedin Icon" />
-                        <img src="assets/icons/linkedin-gray-outline.svg" alt="Linkedin Icon" />
-                    </a>
-                </div>
-                <div class="top-icon">
-                    <a href="mailto:staff@auburnhacks.com" target="_blank">
-                        <img src="assets/icons/email-white-outline.svg" alt="Email Icon" />
-                        <img src="assets/icons/email-gray-outline.svg" alt="Email Icon" />
-                    </a>
+            <div id="home-content-mobile">
+                <h1 id="home-name">AUBURN HACKS</h1>
+                <h3 id="home-date">2/11/23-2/12/23</h3>
+                <div id="home-icons">
+                    <div class="top-icon">
+                        <a href="https://www.instagram.com/auburnhacks/?hl=en"
+                            target="_blank">
+                            <img src="assets/icons/instagram-blue-outline.svg"
+                                alt="Instagram Icon" />
+                            <img src="assets/icons/instagram-white-outline.svg"
+                                alt="Instagram Icon" />
+                        </a>
+                    </div>
+                    <div class="top-icon">
+                        <a href="https://www.facebook.com/AuburnHacks/"
+                            target="_blank">
+                            <img src="assets/icons/facebook-blue-outline.svg"
+                                alt="Facebook Icon" />
+                            <img src="assets/icons/facebook-white-outline.svg"
+                                alt="Facebook Icon" />
+                        </a>
+                    </div>
+                    <div class="top-icon">
+                        <a href="https://twitter.com/auburnhacks"
+                            target="_blank">
+                            <img src="assets/icons/twitter-blue-outline.svg"
+                                alt="Twitter Icon" />
+                            <img src="assets/icons/twitter-white-outline.svg"
+                                alt="Twitter Icon" />
+                        </a>
+                    </div>
+                    <div class="top-icon">
+                        <a href="https://www.linkedin.com/company/auburnhacks/"
+                            target="_blank">
+                            <img src="assets/icons/linkedin-blue-outline.svg"
+                                alt="Linkedin Icon" />
+                            <img src="assets/icons/linkedin-white-outline.svg"
+                                alt="Linkedin Icon" />
+                        </a>
+                    </div>
+                    <div class="top-icon">
+                        <a href="mailto:staff@auburnhacks.com" target="_blank">
+                            <img src="assets/icons/email-blue-outline.svg"
+                                alt="Email Icon" />
+                            <img src="assets/icons/email-white-outline.svg"
+                                alt="Email Icon" />
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div id="home-content-mobile">
-            <h1 id="home-name">AUBURN HACKS</h1>
-            <h3 id="home-date">2/11/23-2/12/23</h3>
-            <div id="home-icons">
-                <div class="top-icon">
-                    <a href="https://www.instagram.com/auburnhacks/?hl=en" target="_blank">
-                        <img src="assets/icons/instagram-blue-outline.svg" alt="Instagram Icon" />
-                        <img src="assets/icons/instagram-white-outline.svg" alt="Instagram Icon" />
-                    </a>
-                </div>
-                <div class="top-icon">
-                    <a href="https://www.facebook.com/AuburnHacks/" target="_blank">
-                        <img src="assets/icons/facebook-blue-outline.svg" alt="Facebook Icon" />
-                        <img src="assets/icons/facebook-white-outline.svg" alt="Facebook Icon" />
-                    </a>
-                </div>
-                <div class="top-icon">
-                    <a href="https://twitter.com/auburnhacks" target="_blank">
-                        <img src="assets/icons/twitter-blue-outline.svg" alt="Twitter Icon" />
-                        <img src="assets/icons/twitter-white-outline.svg" alt="Twitter Icon" />
-                    </a>
-                </div>
-                <div class="top-icon">
-                    <a href="https://www.linkedin.com/company/auburnhacks/" target="_blank">
-                        <img src="assets/icons/linkedin-blue-outline.svg" alt="Linkedin Icon" />
-                        <img src="assets/icons/linkedin-white-outline.svg" alt="Linkedin Icon" />
-                    </a>
-                </div>
-                <div class="top-icon">
-                    <a href="mailto:staff@auburnhacks.com" target="_blank">
-                        <img src="assets/icons/email-blue-outline.svg" alt="Email Icon" />
-                        <img src="assets/icons/email-white-outline.svg" alt="Email Icon" />
-                    </a>
-                </div>
+            <div id="home-assets">
+                <img id="ocean" src="assets/images/home/ocean.svg" alt="Ocean"
+                    />
+                <img id="waves" src="assets/images/home/waves.svg" alt="Waves"
+                    />
+                <img id="sand" src="assets/images/home/sand.svg" alt="Sand" />
+                <img id="palm" src="assets/images/home/palm.svg" alt="Palm tree
+                    and bush" />
+                <img id="mtn3" src="assets/images/home/mtn3.svg" alt="Mountain"
+                    />
+                <img id="mtn2" src="assets/images/home/mtn2.svg" alt="Mountain"
+                    />
+                <img id="mtn1" src="assets/images/home/mtn1.svg" alt="Mountain"
+                    />
+                <img id="sun" src="assets/images/home/sun.svg" alt="Sun" />
             </div>
-        </div>
 
-        <div id="home-assets">
-            <img id="ocean" src="assets/images/home/ocean.svg" alt="Ocean" />
-            <img id="waves" src="assets/images/home/waves.svg" alt="Waves" />
-            <img id="sand" src="assets/images/home/sand.svg" alt="Sand" />
-            <img id="palm" src="assets/images/home/palm.svg" alt="Palm tree and bush" />
-            <img id="mtn3" src="assets/images/home/mtn3.svg" alt="Mountain" />
-            <img id="mtn2" src="assets/images/home/mtn2.svg" alt="Mountain" />
-            <img id="mtn1" src="assets/images/home/mtn1.svg" alt="Mountain" />
-            <img id="sun" src="assets/images/home/sun.svg" alt="Sun" />
-        </div>
-
-        <div id="home-assets-mobile">
-            <!-- <img id="ocean-mobile" src="assets/images/home/ocean.svg" alt="Ocean" />
+            <div id="home-assets-mobile">
+                <!-- <img id="ocean-mobile" src="assets/images/home/ocean.svg" alt="Ocean" />
             <img id="waves-mobile" src="assets/images/home/waves.svg" alt="Waves" />
             <img id="sand-mobile" src="assets/images/home/sand.svg" alt="Sand" />
             <img id="palm-mobile" src="assets/images/home/palm.svg" alt="Palm tree and bush" />
             <img id="mtn2-mobile" src="assets/images/home/mtn2.svg" alt="Mountain" />
             <img id="mtn1-mobile" src="assets/images/home/mtn1.svg" alt="Mountain" />
             <img id="sun-mobile" src="assets/images/home/sun.svg" alt="Sun" /> -->
-            <img id="mobile" src="assets/images/home/mobile.svg" />
-        </div>
-    </div>
-
-    <div id="gradient-bg">
-        <div id="about" class="section">
-            <h2 class="title">ABOUT</h2>
-            <div class="content">
-                <p id="about-text">
-                    Auburn Hacks is a free, 24-hour, annual hackathon
-                    event held in the spring at Auburn University.
-                    During this weekend-long event, hundreds of students
-                    collaborate to create technological projects
-                    backed by innovation and passion.
-                    <br /><br />
-                    At Auburn Hacks, participants come together in teams
-                    of four to create technical projects over the course of
-                    one day. At the end of the hackathon, teams enter their
-                    projects to win cash prizes. If you don't have much
-                    coding experience, don't worry! We have prize categories
-                    for beginners too.
-                    <br /><br />
-                    We will provide <strong>free workshops, activities, swag,
-                        food, and more</strong> for everyone who participates!
-                    Plus,Auburn Hacks is the largest hackathon in Alabama -
-                    you don't want to miss out!
-                </p>
-                <p id="about-date">
-                    <br />
-                    Join us at Auburn Hacks from February 11th-12th, 2023!
-                    <br />
-                </p>
-            </div>
-            <img id="school-left" src="assets/images/about/school.svg" />
-            <img id="school-right" src="assets/images/about/school.svg" />
-            <img id="bubbles1" src="assets/images/about/bubbles.svg" />
-            <img id="turtle1" src="assets/images/about/turtle1.svg" />
-        </div>
-
-        <div id="about-mobile" class="section-mobile">
-            <h2 class="title-mobile">ABOUT</h2>
-            <div class="content-mobile">
-                <p id="about-text">
-                    Auburn Hacks is a free, 24-hour, annual hackathon
-                    event held in the spring at Auburn University.
-                    During this weekend-long event, hundreds of students
-                    collaborate to create technological projects
-                    backed by innovation and passion.
-                    <br /><br />
-                    At Auburn Hacks, participants come together in teams
-                    of four to create technical projects over the course of
-                    one day. At the end of the hackathon, teams enter their
-                    projects to win cash prizes. If you don't have much
-                    coding experience, don't worry! We have prize categories
-                    for beginners too.
-                    <br /><br />
-                    We will provide <strong>free workshops, activities, swag,
-                        food, and more</strong> for everyone who participates!
-                    Plus, Auburn Hacks is the largest hackathon in Alabama -
-                    you don't want to miss out!
-                </p>
-                <p id="about-date">
-                    Join us at Auburn Hacks from February 11th-12th, 2023!
-                    <br />
-                </p>
+                <img id="mobile" src="assets/images/home/mobile.svg" />
             </div>
         </div>
 
-        <!--Credit to HackMIT-->
-        <div id="faq" class="section">
-            <h2 class="title">FAQ</h2>
-            <div id="faq-content">
-                <div class="faq-div">
-                    <h3 class="faq-header">GENERAL</h3>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What is a hackathon?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            A hackathon is an event, typically spanning a day or two,
-                            where people come together to collaborate and create a
-                            project of their choosing. Hackathons are usually coding
-                            events, but programming experience is not required!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">When and where is Auburn Hacks?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Auburn Hacks will start Saturday, February 11, 2023
-                            and end Sunday, February 12, 2023.
-                            <br />
-                            It is located in the Brown-Kopel Engineering Student Achievement Center
-                            on Auburn University's campus.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What goes on at Auburn Hacks?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            At Auburn Hacks, hundreds of people come together to learn
-                            more about coding and create projects of their choosing.
-                            Outside of working on their projects, participants can
-                            attend workshops, activities, and tech talks to improve their
-                            programming skills.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What is the theme?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            This year's theme for Auburn Hacks is tropical!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Why is there a theme?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Auburn Hacks uses the theme to elevate the hackathon
-                            experience by providing participants with a cohesive
-                            atmosphere for workshops and activities. Additionally,
-                            participants can use the theme as inspiration for their
-                            projects.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Are there any rules?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Our biggest rule is that all work must be done at Auburn Hacks. Also, everyone who
-                            participates must follow the
-                            <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Code of
-                                Conduct</a>.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What are the COVID-19 regulations?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Auburn Hacks will be held in accordance with university policies. Currently, the hackathon
-                            will be in-person, and masks will not be required. However, if you are exposed to COVID-19,
-                            please follow the
-                            <a href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/isolation.html"
-                                target="_blank">
-                                CDC guidelines</a>
-                            to determine whether you should participate.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Have more questions?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            If you have any other questions, please email us <a
-                                href="mailto:staff@auburnhacks.com">here</a>!
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-div">
-                    <h3 class="faq-header">PARTICIPANTS</h3>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Who can participate?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Anyone who is currently a college student or graduated in the past year can participate.
-                            This includes undergraduate and graduate students.
-                            <br />Auburn Hacks welcomes participants from any university!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">How do I register?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Please register <a href="https://aub.ie/auhacksregister" target="_blank">here</a>! Everyone
-                            who wants to secure a spot at
-                            the hackthon
-                            must register.
-                            <br />If you have any questions about registration, email us <a
-                                href="mailto:staff@auburnhacks.com">here</a>.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">When does registration close?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Registration closes February 10, 2023 at 11:59 PM CST.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Are walk-ins accepted?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            We accept walk-ins if we have available spots, but it is not guaranteed. To secure a spot,
-                            please register <a href="mailto:staff@auburnhacks.com">here</a>.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">How do teams work?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Each team consists of four participants. If you would like to create a team before the
-                            event, please feel free! However, if you do not have a team by the hackathon, don’t worry!
-                            We will team creation available on the day of the event.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What should I bring?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Laptop, chargers, and any other technology you might need.
-                            <br />Since the event runs 24 hours,
-                            you may also want to bring a sleeping bag/pillow/blanket, deodorant, toothbrush/toothpaste,
-                            and contacts/glasses.
-                            <br />Most importantly, don’t forget to bring enthusiasm and a positive attitude!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What should I wear?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Wear anything that you will be comfortable in for 24 hours. If you want to join in on the
-                            theme, feel free to wear tropical attire (hawaiian shirt, floral patterns, etc.)!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I volunteer instead of participate?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes! Register <a href="https://aub.ie/auhacksvolunteer" target="_blank">here</a> to
-                            volunteer during Auburn Hacks.
-                            Volunteering is a great
-                            way to see what all goes on at a hackathon behind the scenes.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-div">
-                    <h3 class="faq-header">LOGISTICS</h3>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">How much does it cost to participate?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Nothing! It is completely free to participate in Auburn Hacks!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Is the hackathon in-person?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes, Auburn Hacks is scheduled to be an entirely in-person event.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Are there going to be prizes?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes, there will be cash prizes for the top three intermediate projects. In addition to
-                            these, there will be a beginner project prize and sponsor prizes.*
-                            <br />* This information is subject to change.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Will there be food?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes, participants will receive free lunch, dinner, breakfast, and snacks.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I sleep at Auburn Hacks?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes, we will have a room dedicated to sleeping in the evening hours. If you plan on
-                            sleeping, please bring your own sleeping bag/pillows/blankets.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Where is the schedule?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            As the hackathon nears, a live site will be published with the full hackathon schedule and
-                            other resources. If you register, you will receive an email with the live site and the full
-                            schedule attached.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">How do I get to Auburn Hacks?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            The entirety of Auburn Hacks will take place in the Brown-Kopel Engineering Student
-                            Achievement Center on Auburn University's campus. Please park in the “A” parking lots near
-                            the <a href="https://goo.gl/maps/GrmJnuNqkh5Cx1S4A" target="_blank">320 West Mag apartment
-                                complex</a> or
-                            <a href="https://goo.gl/maps/y1cKX2ZaVHoCgue46" target="_blank">Lowder</a>.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Will there be travel compensation?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Unfortunately, Auburn Hacks will not provide compensation to those traveling to Auburn.
-                            Please email us <a href="mailto:staff@auburnhacks.com">here</a> if you have any questions.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-div">
-                    <h3 class="faq-header">TECH</h3>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I make anything I want?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes! All appropriate software projects are welcome. Unfortunately, Auburn Hacks does not
-                            support hardware projects at this time.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I bring code that I've previously programmed?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            No, all code must be written during the hackathon.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I start working on my project before the event?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            No, all code must be written during the hackathon.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Should I attend if I have no coding experience?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes! We have workshops for beginner and intermediate participants. We also have a prize
-                            category for beginner teams. If you want to get started coding, Auburn Hacks would be a
-                            great event for you!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Is there a prize category for beginners?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes! To level the playing field for beginner programmers, we have decided to add a beginner
-                            project prize category this year.
-                            <br />We determine beginner eligibility by reviewing participants’ registration information.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What are some resources I can look at before the hackathon?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            We are working on creating a resource pack for beginners to prepare for Auburn Hacks. If you
-                            register, we will notify you when it's complete!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <img id="fishes" src="assets/images/faq/fishes.svg" />
-            <img id="bubbles2" src="assets/images/about/bubbles.svg" />
-            <img id="bubbles3" src="assets/images/about/bubbles.svg" />
-            <img id="bubbles4" src="assets/images/about/bubbles.svg" />
-            <img id="jelly1" src="assets/images/faq/jelly.svg" />
-            <img id="jelly2" src="assets/images/faq/jelly.svg" />
-            <img id="turtle2" src="assets/images/faq/turtle2.svg" />
-            <img id="turtle3" src="assets/images/faq/turtle2.svg" />
-            <img id="turtle4" src="assets/images/faq/turtle2.svg" />
-            <img id="orange" src="assets/images/faq/orange.svg" />
-            <img id="green" src="assets/images/faq/green.svg" />
-            <img id="yellow" src="assets/images/faq/yellow.svg" />
-        </div>
-
-        <div id="faq-mobile" class="section-mobile">
-            <h2 class="title-mobile">FAQ</h2>
-            <div id="faq-content">
-                <div class="faq-div">
-                    <h3 class="faq-header">GENERAL</h3>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What is a hackathon?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            A hackathon is an event, typically spanning a day or two,
-                            where people come together to collaborate and create a
-                            project of their choosing. Hackathons are usually coding
-                            events, but programming experience is not required!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">When and where is Auburn Hacks?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Auburn Hacks will start Saturday, February 11, 2023
-                            and end Sunday, February 12, 2023.
-                            <br />
-                            It is located in the Brown-Kopel Engineering Student Achievement Center
-                            on Auburn University's campus.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What goes on at Auburn Hacks?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            At Auburn Hacks, hundreds of people come together to learn
-                            more about coding and create projects of their choosing.
-                            Outside of working on their projects, participants can
-                            attend workshops, activities, and tech talks to improve their
-                            programming skills.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What is the theme?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            This year's theme for Auburn Hacks is tropical!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Why is there a theme?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Auburn Hacks uses the theme to elevate the hackathon
-                            experience by providing participants with a cohesive
-                            atmosphere for workshops and activities. Additionally,
-                            participants can use the theme as inspiration for their
-                            projects.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Are there any rules?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Our biggest rule is that all work must be done at Auburn Hacks. Also, everyone who
-                            participates must follow the
-                            <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Code of
-                                Conduct</a>.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What are the COVID-19 regulations?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Auburn Hacks will be held in accordance with university policies. Currently, the hackathon
-                            will be in-person, and masks will not be required. However, if you are exposed to COVID-19,
-                            please follow the
-                            <a href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/isolation.html"
-                                target="_blank">
-                                CDC guidelines</a>
-                            to determine whether you should participate.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Have more questions?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            If you have any other questions, please email us <a
-                                href="mailto:staff@auburnhacks.com">here</a>!
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-div">
-                    <h3 class="faq-header">PARTICIPANTS</h3>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Who can participate?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Anyone who is currently a college student or graduated in the past year can participate.
-                            This includes undergraduate and graduate students.
-                            <br />Auburn Hacks welcomes participants from any university!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">How do I register?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Please register <a href="https://aub.ie/auhacksregister" target="_blank">here</a>! Everyone
-                            who wants to secure a spot at
-                            the hackthon
-                            must register.
-                            <br />If you have any questions about registration, email us <a
-                                href="mailto:staff@auburnhacks.com">here</a>.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">When does registration close?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Registration closes February 10, 2023 at 11:59 PM CST.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Are walk-ins accepted?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            We accept walk-ins if we have available spots, but it is not guaranteed. To secure a spot,
-                            please register <a href="mailto:staff@auburnhacks.com">here</a>.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">How do teams work?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Each team consists of four participants. If you would like to create a team before the
-                            event, please feel free! However, if you do not have a team by the hackathon, don’t worry!
-                            We will team creation available on the day of the event.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What should I bring?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Laptop, chargers, and any other technology you might need.
-                            <br />Since the event runs 24 hours,
-                            you may also want to bring a sleeping bag/pillow/blanket, deodorant, toothbrush/toothpaste,
-                            and contacts/glasses.
-                            <br />Most importantly, don’t forget to bring enthusiasm and a positive attitude!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What should I wear?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Wear anything that you will be comfortable in for 24 hours. If you want to join in on the
-                            theme, feel free to wear tropical attire (hawaiian shirt, floral patterns, etc.)!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I volunteer instead of participate?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes! Register <a href="https://aub.ie/auhacksvolunteer" target="_blank">here</a> to
-                            volunteer during Auburn Hacks.
-                            Volunteering is a great
-                            way to see what all goes on at a hackathon behind the scenes.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-div">
-                    <h3 class="faq-header">LOGISTICS</h3>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">How much does it cost to participate?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Nothing! It is completely free to participate in Auburn Hacks!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Is the hackathon in-person?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes, Auburn Hacks is scheduled to be an entirely in-person event.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Are there going to be prizes?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes, there will be cash prizes for the top three intermediate projects. In addition to
-                            these, there will be a beginner project prize and sponsor prizes.*
-                            <br />* This information is subject to change.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Will there be food?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes, participants will receive free lunch, dinner, breakfast, and snacks.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I sleep at Auburn Hacks?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes, we will have a room dedicated to sleeping in the evening hours. If you plan on
-                            sleeping, please bring your own sleeping bag/pillows/blankets.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Where is the schedule?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            As the hackathon nears, a live site will be published with the full hackathon schedule and
-                            other resources. If you register, you will receive an email with the live site and the full
-                            schedule attached.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">How do I get to Auburn Hacks?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            The entirety of Auburn Hacks will take place in the Brown-Kopel Engineering Student
-                            Achievement Center on Auburn University's campus. Please park in the “A” parking lots near
-                            the <a href="https://goo.gl/maps/GrmJnuNqkh5Cx1S4A" target="_blank">320 West Mag apartment
-                                complex</a> or
-                            <a href="https://goo.gl/maps/y1cKX2ZaVHoCgue46" target="_blank">Lowder</a>.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Will there be travel compensation?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Unfortunately, Auburn Hacks will not provide compensation to those traveling to Auburn.
-                            Please email us <a href="mailto:staff@auburnhacks.com">here</a> if you have any questions.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-div">
-                    <h3 class="faq-header">TECH</h3>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I make anything I want?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes! All appropriate software projects are welcome. Unfortunately, Auburn Hacks does not
-                            support hardware projects at this time.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I bring code that I've previously programmed?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            No, all code must be written during the hackathon.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Can I start working on my project before the event?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            No, all code must be written during the hackathon.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Should I attend if I have no coding experience?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes! We have workshops for beginner and intermediate participants. We also have a prize
-                            category for beginner teams. If you want to get started coding, Auburn Hacks would be a
-                            great event for you!
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">Is there a prize category for beginners?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            Yes! To level the playing field for beginner programmers, we have decided to add a beginner
-                            project prize category this year.
-                            <br />We determine beginner eligibility by reviewing participants’ registration information.
-                        </p>
-                    </div>
-                    <div class="faq-bullet">
-                        <img class="flower" src="./assets/images/faq/flower.svg">
-                        <p class="faq-question">What are some resources I can look at before the hackathon?</p>
-                    </div>
-                    <div class="faq-answer">
-                        <p>
-                            We are working on creating a resource pack for beginners to prepare for Auburn Hacks. If you
-                            register, we will notify you when it's complete!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="sponsors" class="section">
-            <h2 class="title">SPONSORS</h2>
-            <div class="content">
-                <!-- <div class="sponsor-container">
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                </div>
-                <div class="sponsor-container">
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                </div>
-                <div class="sponsor-container">
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                </div>
-                <div class="sponsor-container">
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                </div> -->
-                <p>
-                    <!-- <br />
-                    <br /> -->
-                    Sponsors to be announced soon!
-                </p>
-            </div>
-            <img id="octo" src="assets/images/sponsors/octo.svg" />
-            <img id="scuba1" src="assets/images/sponsors/scuba1.svg" />
-            <img id="bubbles5" src="assets/images/about/bubbles.svg" />
-            <img id="bubbles6" src="assets/images/about/bubbles.svg" />
-            <img id="bubbles7" src="assets/images/about/bubbles.svg" />
-            <img id="bubbles8" src="assets/images/about/bubbles.svg" />
-        </div>
-
-        <div id="sponsors-mobile" class="section-mobile">
-            <h2 class="title-mobile">SPONSORS</h2>
-            <div class="content-mobile">
-                <!-- <div class="sponsor-container">
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                </div>
-                <div class="sponsor-container">
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                </div>
-                <div class="sponsor-container">
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                </div>
-                <div class="sponsor-container">
-                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
-                </div> -->
-                <p>
-                    <!-- <br />
-                    <br /> -->
-                    Sponsors to be announced soon!
-                </p>
-            </div>
-        </div>
-
-        <div id="directors" class="section">
-            <h2 class="title">DIRECTORS</h2>
-            <div id="directors-container">
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="jared" href="https://www.linkedin.com/in/jaredhprather/"
-                            target="_blank"></a>
-                        <h4 class="name">Jared Prather</h4>
-                        <p>Head Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="emily" href="https://www.linkedin.com/in/emily-kimbrell-89b299221/"
-                            target="_blank"></a>
-                        <h4 class="name">Emily Kimbrell</h4>
-                        <p>Marketing Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="ben" href="https://www.linkedin.com/in/bfisk1711/"
-                            target="_blank"></a>
-                        <h4 class="name">Benjamin Fisk</h4>
-                        <p>Logistics Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="lori" href="https://www.linkedin.com/in/lorissa-algarin/"
-                            target="_blank"></a>
-                        <h4 class="name">Lorissa Algarin</h4>
-                        <p>Operations Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="olivia" href="https://www.linkedin.com/in/olivia-smith-4a5a80222/"
-                            target="_blank"></a>
-                        <h4 class="name">Olivia Smith</h4>
-                        <p>Finance Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="zac" href="https://www.linkedin.com/in/zac-kelley/"
-                            target="_blank"></a>
-                        <h4 class="name">Zachary Kelley</h4>
-                        <p>Finance Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="cady" href="https://www.linkedin.com/in/cadypridgeon/"
-                            target="_blank"></a>
-                        <h4 class="name">Cady Pridgeon</h4>
-                        <p>Tech Director</p>
-                    </div>
-                </div>
-            </div>
-            <img id="scuba2" src="assets/images/directors/scuba2.svg" />
-            <img id="eye" src="assets/images/directors/fish.svg" />
-            <img id="bubbles9" src="assets/images/about/bubbles.svg" />
-            <img id="bubbles10" src="assets/images/about/bubbles.svg" />
-            <!-- <img id="bubbles11" src="assets/images/about/bubbles.svg" /> -->
-            <img id="bubbles12" src="assets/images/about/bubbles.svg" />
-            <img id="bubbles13" src="assets/images/about/bubbles.svg" />
-            <!-- <img id="bubbles14" src="assets/images/about/bubbles.svg" /> -->
-        </div>
-
-        <div id="directors-mobile" class="section-mobile">
-            <h2 class="title-mobile">DIRECTORS</h2>
-            <div id="directors-container">
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="jared" href="https://www.linkedin.com/in/jaredhprather/"
-                            target="_blank"></a>
-                        <h4 class="name">Jared Prather</h4>
-                        <p>Head Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="emily" href="https://www.linkedin.com/in/emily-kimbrell-89b299221/"
-                            target="_blank"></a>
-                        <h4 class="name">Emily Kimbrell</h4>
-                        <p>Marketing Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="ben" href="https://www.linkedin.com/in/bfisk1711/"
-                            target="_blank"></a>
-                        <h4 class="name">Benjamin Fisk</h4>
-                        <p>Logistics Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="lori" href="https://www.linkedin.com/in/lorissa-algarin/"
-                            target="_blank"></a>
-                        <h4 class="name">Lorissa Algarin</h4>
-                        <p>Operations Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="olivia" href="https://www.linkedin.com/in/olivia-smith-4a5a80222/"
-                            target="_blank"></a>
-                        <h4 class="name">Olivia Smith</h4>
-                        <p>Finance Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="zac" href="https://www.linkedin.com/in/zac-kelley/"
-                            target="_blank"></a>
-                        <h4 class="name">Zachary Kelley</h4>
-                        <p>Finance Director</p>
-                    </div>
-                </div>
-                <div id="directors-div">
-                    <div class="director">
-                        <a class="profile-pic" id="cady" href="https://www.linkedin.com/in/cadypridgeon/"
-                            target="_blank"></a>
-                        <h4 class="name">Cady Pridgeon</h4>
-                        <p>Tech Director</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Credit to HackMIT-->
-        <div id="countdown" class="section">
-            <h2 class="title">
-                COUNTDOWN
-            </h2>
-            <div id="countdown-text">
+        <div id="gradient-bg">
+            <div id="about" class="section">
+                <h2 class="title">ABOUT</h2>
                 <div class="content">
-                    AUBURN HACKS STARTS IN...
+                    <p id="about-text">
+                        Auburn Hacks is a free, 24-hour, annual hackathon
+                        event held in the spring at Auburn University.
+                        During this weekend-long event, hundreds of students
+                        collaborate to create technological projects
+                        backed by innovation and passion.
+                        <br /><br />
+                        At Auburn Hacks, participants come together in teams
+                        of four to create technical projects over the course of
+                        one day. At the end of the hackathon, teams enter their
+                        projects to win cash prizes. If you don't have much
+                        coding experience, don't worry! We have prize categories
+                        for beginners too.
+                        <br /><br />
+                        We will provide <strong>free workshops, activities,
+                            swag,
+                            food, and more</strong> for everyone who
+                        participates!
+                        Plus,Auburn Hacks is the largest hackathon in Alabama -
+                        you don't want to miss out!
+                    </p>
+                    <p id="about-date">
+                        <br />
+                        Join us at Auburn Hacks from February 11th-12th, 2023!
+                        <br />
+                    </p>
                 </div>
-                <!-- <div id="countdown-timer">
+                <img id="school-left" src="assets/images/about/school.svg" />
+                <img id="school-right" src="assets/images/about/school.svg" />
+                <img id="bubbles1" src="assets/images/about/bubbles.svg" />
+                <img id="turtle1" src="assets/images/about/turtle1.svg" />
+            </div>
+
+            <div id="about-mobile" class="section-mobile">
+                <h2 class="title-mobile">ABOUT</h2>
+                <div class="content-mobile">
+                    <p id="about-text">
+                        Auburn Hacks is a free, 24-hour, annual hackathon
+                        event held in the spring at Auburn University.
+                        During this weekend-long event, hundreds of students
+                        collaborate to create technological projects
+                        backed by innovation and passion.
+                        <br /><br />
+                        At Auburn Hacks, participants come together in teams
+                        of four to create technical projects over the course of
+                        one day. At the end of the hackathon, teams enter their
+                        projects to win cash prizes. If you don't have much
+                        coding experience, don't worry! We have prize categories
+                        for beginners too.
+                        <br /><br />
+                        We will provide <strong>free workshops, activities,
+                            swag,
+                            food, and more</strong> for everyone who
+                        participates!
+                        Plus, Auburn Hacks is the largest hackathon in Alabama -
+                        you don't want to miss out!
+                    </p>
+                    <p id="about-date">
+                        Join us at Auburn Hacks from February 11th-12th, 2023!
+                        <br />
+                    </p>
+                </div>
+            </div>
+
+            <div id="faq" class="section">
+                <!--Credit to HackMIT-->
+                <h2 class="title">FAQ</h2>
+                <div id="faq-content">
+                    <div class="faq-div">
+                        <h3 class="faq-header">GENERAL</h3>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">What is a
+                                hackathon?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                A hackathon is an event, typically spanning a
+                                day or two,
+                                where people come together to collaborate and
+                                create a
+                                project of their choosing. Hackathons are
+                                usually coding
+                                events, but programming experience is not
+                                required!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">When and where
+                                is Auburn
+                                Hacks?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Auburn Hacks will start Saturday, February 11,
+                                2023
+                                and end Sunday, February 12, 2023.
+                                <br />
+                                It is located in the Brown-Kopel Engineering
+                                Student Achievement Center
+                                on Auburn University's campus.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">What goes on at
+                                Auburn
+                                Hacks?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                At Auburn Hacks, hundreds of people come
+                                together to learn
+                                more about coding and create projects of their
+                                choosing.
+                                Outside of working on their projects,
+                                participants can
+                                attend workshops, activities, and tech talks to
+                                improve their
+                                programming skills.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">What is the
+                                theme?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                This year's theme for Auburn Hacks is tropical!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Why is there a
+                                theme?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Auburn Hacks uses the theme to elevate the
+                                hackathon
+                                experience by providing participants with a
+                                cohesive
+                                atmosphere for workshops and activities.
+                                Additionally,
+                                participants can use the theme as inspiration
+                                for their
+                                projects.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Are there any
+                                rules?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Our biggest rule is that all work must be done
+                                at Auburn Hacks. Also, everyone who
+                                participates must follow the
+                                <a
+                                    href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                                    target="_blank">MLH Code of
+                                    Conduct</a>.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">What are the
+                                COVID-19
+                                regulations?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Auburn Hacks will be held in accordance with
+                                university policies. Currently, the hackathon
+                                will be in-person, and masks will not be
+                                required. However, if you are exposed to
+                                COVID-19,
+                                please follow the
+                                <a
+                                    href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/isolation.html"
+                                    target="_blank">
+                                    CDC guidelines</a>
+                                to determine whether you should participate.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Have more
+                                questions?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                If you have any other questions, please email us
+                                <a
+                                    href="mailto:staff@auburnhacks.com">here</a>!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-div">
+                        <h3 class="faq-header">PARTICIPANTS</h3>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Who can
+                                participate?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Anyone who is currently a college student or
+                                graduated in the past year can participate.
+                                This includes undergraduate and graduate
+                                students.
+                                <br />Auburn Hacks welcomes participants from
+                                any university!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">How do I
+                                register?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Please register <a
+                                    href="https://aub.ie/auhacksregister"
+                                    target="_blank">here</a>! Everyone
+                                who wants to secure a spot at
+                                the hackthon
+                                must register.
+                                <br />If you have any questions about
+                                registration, email us <a
+                                    href="mailto:staff@auburnhacks.com">here</a>.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">When does
+                                registration
+                                close?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Registration closes February 10, 2023 at 11:59
+                                PM CST.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Are walk-ins
+                                accepted?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                We accept walk-ins if we have available spots,
+                                but it is not guaranteed. To secure a spot,
+                                please register <a
+                                    href="mailto:staff@auburnhacks.com">here</a>.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">How do teams
+                                work?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Each team consists of four participants. If you
+                                would like to create a team before the
+                                event, please feel free! However, if you do not
+                                have a team by the hackathon, don’t worry!
+                                We will team creation available on the day of
+                                the event.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">What should I
+                                bring?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Laptop, chargers, and any other technology you
+                                might need.
+                                <br />Since the event runs 24 hours,
+                                you may also want to bring a sleeping
+                                bag/pillow/blanket, deodorant,
+                                toothbrush/toothpaste,
+                                and contacts/glasses.
+                                <br />Most importantly, don’t forget to bring
+                                enthusiasm and a positive attitude!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">What should I
+                                wear?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Wear anything that you will be comfortable in
+                                for 24 hours. If you want to join in on the
+                                theme, feel free to wear tropical attire
+                                (hawaiian shirt, floral patterns, etc.)!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Can I volunteer
+                                instead of
+                                participate?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes! Register <a
+                                    href="https://aub.ie/auhacksvolunteer"
+                                    target="_blank">here</a> to
+                                volunteer during Auburn Hacks.
+                                Volunteering is a great
+                                way to see what all goes on at a hackathon
+                                behind the scenes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-div">
+                        <h3 class="faq-header">LOGISTICS</h3>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">How much does
+                                it cost to
+                                participate?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Nothing! It is completely free to participate in
+                                Auburn Hacks!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Is the
+                                hackathon in-person?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, Auburn Hacks is scheduled to be an entirely
+                                in-person event.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Are there going
+                                to be
+                                prizes?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, there will be cash prizes for the top three
+                                intermediate projects. In addition to
+                                these, there will be a beginner project prize
+                                and sponsor prizes.*
+                                <br />* This information is subject to change.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Will there be
+                                food?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, participants will receive free lunch,
+                                dinner, breakfast, and snacks.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Can I sleep at
+                                Auburn Hacks?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, we will have a room dedicated to sleeping
+                                in the evening hours. If you plan on
+                                sleeping, please bring your own sleeping
+                                bag/pillows/blankets.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Where is the
+                                schedule?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                As the hackathon nears, a live site will be
+                                published with the full hackathon schedule and
+                                other resources. If you register, you will
+                                receive an email with the live site and the full
+                                schedule attached.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">How do I get to
+                                Auburn
+                                Hacks?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                The entirety of Auburn Hacks will take place in
+                                the Brown-Kopel Engineering Student
+                                Achievement Center on Auburn University's
+                                campus. Please park in the “A” parking lots near
+                                the <a
+                                    href="https://goo.gl/maps/GrmJnuNqkh5Cx1S4A"
+                                    target="_blank">320 West Mag apartment
+                                    complex</a> or
+                                <a href="https://goo.gl/maps/y1cKX2ZaVHoCgue46"
+                                    target="_blank">Lowder</a>.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Will there be
+                                travel
+                                compensation?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Unfortunately, Auburn Hacks will not provide
+                                compensation to those traveling to Auburn.
+                                Please email us <a
+                                    href="mailto:staff@auburnhacks.com">here</a>
+                                if you have any questions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-div">
+                        <h3 class="faq-header">TECH</h3>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Can I make
+                                anything I want?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes! All appropriate software projects are
+                                welcome. Unfortunately, Auburn Hacks does not
+                                support hardware projects at this time.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Can I bring
+                                code that I've
+                                previously programmed?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                No, all code must be written during the
+                                hackathon.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Can I start
+                                working on my
+                                project before the event?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                No, all code must be written during the
+                                hackathon.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Should I attend
+                                if I have no
+                                coding experience?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes! We have workshops for beginner and
+                                intermediate participants. We also have a prize
+                                category for beginner teams. If you want to get
+                                started coding, Auburn Hacks would be a
+                                great event for you!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">Is there a
+                                prize category
+                                for beginners?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes! To level the playing field for beginner
+                                programmers, we have decided to add a beginner
+                                project prize category this year.
+                                <br />We determine beginner eligibility by
+                                reviewing participants’ registration
+                                information.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question" tabindex="0">What are some
+                                resources I
+                                can look at before the hackathon?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                We are working on creating a resource pack for
+                                beginners to prepare for Auburn Hacks. If you
+                                register, we will notify you when it's complete!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img id="fishes" src="assets/images/faq/fishes.svg" />
+                <img id="bubbles2" src="assets/images/about/bubbles.svg" />
+                <img id="bubbles3" src="assets/images/about/bubbles.svg" />
+                <img id="bubbles4" src="assets/images/about/bubbles.svg" />
+                <img id="jelly1" src="assets/images/faq/jelly.svg" />
+                <img id="jelly2" src="assets/images/faq/jelly.svg" />
+                <img id="turtle2" src="assets/images/faq/turtle2.svg" />
+                <img id="turtle3" src="assets/images/faq/turtle2.svg" />
+                <img id="turtle4" src="assets/images/faq/turtle2.svg" />
+                <img id="orange" src="assets/images/faq/orange.svg" />
+                <img id="green" src="assets/images/faq/green.svg" />
+                <img id="yellow" src="assets/images/faq/yellow.svg" />
+            </div>
+
+            <div id="faq-mobile" class="section-mobile">
+                <h2 class="title-mobile">FAQ</h2>
+                <div id="faq-content">
+                    <div class="faq-div">
+                        <h3 class="faq-header">GENERAL</h3>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">What is a hackathon?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                A hackathon is an event, typically spanning a
+                                day or two,
+                                where people come together to collaborate and
+                                create a
+                                project of their choosing. Hackathons are
+                                usually coding
+                                events, but programming experience is not
+                                required!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">When and where is Auburn
+                                Hacks?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Auburn Hacks will start Saturday, February 11,
+                                2023
+                                and end Sunday, February 12, 2023.
+                                <br />
+                                It is located in the Brown-Kopel Engineering
+                                Student Achievement Center
+                                on Auburn University's campus.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">What goes on at Auburn
+                                Hacks?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                At Auburn Hacks, hundreds of people come
+                                together to learn
+                                more about coding and create projects of their
+                                choosing.
+                                Outside of working on their projects,
+                                participants can
+                                attend workshops, activities, and tech talks to
+                                improve their
+                                programming skills.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">What is the theme?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                This year's theme for Auburn Hacks is tropical!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Why is there a theme?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Auburn Hacks uses the theme to elevate the
+                                hackathon
+                                experience by providing participants with a
+                                cohesive
+                                atmosphere for workshops and activities.
+                                Additionally,
+                                participants can use the theme as inspiration
+                                for their
+                                projects.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Are there any rules?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Our biggest rule is that all work must be done
+                                at Auburn Hacks. Also, everyone who
+                                participates must follow the
+                                <a
+                                    href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                                    target="_blank">MLH Code of
+                                    Conduct</a>.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">What are the COVID-19
+                                regulations?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Auburn Hacks will be held in accordance with
+                                university policies. Currently, the hackathon
+                                will be in-person, and masks will not be
+                                required. However, if you are exposed to
+                                COVID-19,
+                                please follow the
+                                <a
+                                    href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/isolation.html"
+                                    target="_blank">
+                                    CDC guidelines</a>
+                                to determine whether you should participate.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Have more questions?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                If you have any other questions, please email us
+                                <a
+                                    href="mailto:staff@auburnhacks.com">here</a>!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-div">
+                        <h3 class="faq-header">PARTICIPANTS</h3>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Who can participate?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Anyone who is currently a college student or
+                                graduated in the past year can participate.
+                                This includes undergraduate and graduate
+                                students.
+                                <br />Auburn Hacks welcomes participants from
+                                any university!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">How do I register?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Please register <a
+                                    href="https://aub.ie/auhacksregister"
+                                    target="_blank">here</a>! Everyone
+                                who wants to secure a spot at
+                                the hackthon
+                                must register.
+                                <br />If you have any questions about
+                                registration, email us <a
+                                    href="mailto:staff@auburnhacks.com">here</a>.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">When does registration
+                                close?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Registration closes February 10, 2023 at 11:59
+                                PM CST.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Are walk-ins accepted?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                We accept walk-ins if we have available spots,
+                                but it is not guaranteed. To secure a spot,
+                                please register <a
+                                    href="mailto:staff@auburnhacks.com">here</a>.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">How do teams work?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Each team consists of four participants. If you
+                                would like to create a team before the
+                                event, please feel free! However, if you do not
+                                have a team by the hackathon, don’t worry!
+                                We will team creation available on the day of
+                                the event.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">What should I bring?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Laptop, chargers, and any other technology you
+                                might need.
+                                <br />Since the event runs 24 hours,
+                                you may also want to bring a sleeping
+                                bag/pillow/blanket, deodorant,
+                                toothbrush/toothpaste,
+                                and contacts/glasses.
+                                <br />Most importantly, don’t forget to bring
+                                enthusiasm and a positive attitude!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">What should I wear?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Wear anything that you will be comfortable in
+                                for 24 hours. If you want to join in on the
+                                theme, feel free to wear tropical attire
+                                (hawaiian shirt, floral patterns, etc.)!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Can I volunteer instead of
+                                participate?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes! Register <a
+                                    href="https://aub.ie/auhacksvolunteer"
+                                    target="_blank">here</a> to
+                                volunteer during Auburn Hacks.
+                                Volunteering is a great
+                                way to see what all goes on at a hackathon
+                                behind the scenes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-div">
+                        <h3 class="faq-header">LOGISTICS</h3>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">How much does it cost to
+                                participate?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Nothing! It is completely free to participate in
+                                Auburn Hacks!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Is the hackathon in-person?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, Auburn Hacks is scheduled to be an entirely
+                                in-person event.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Are there going to be
+                                prizes?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, there will be cash prizes for the top three
+                                intermediate projects. In addition to
+                                these, there will be a beginner project prize
+                                and sponsor prizes.*
+                                <br />* This information is subject to change.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Will there be food?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, participants will receive free lunch,
+                                dinner, breakfast, and snacks.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Can I sleep at Auburn Hacks?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, we will have a room dedicated to sleeping
+                                in the evening hours. If you plan on
+                                sleeping, please bring your own sleeping
+                                bag/pillows/blankets.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Where is the schedule?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                As the hackathon nears, a live site will be
+                                published with the full hackathon schedule and
+                                other resources. If you register, you will
+                                receive an email with the live site and the full
+                                schedule attached.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">How do I get to Auburn
+                                Hacks?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                The entirety of Auburn Hacks will take place in
+                                the Brown-Kopel Engineering Student
+                                Achievement Center on Auburn University's
+                                campus. Please park in the “A” parking lots near
+                                the <a
+                                    href="https://goo.gl/maps/GrmJnuNqkh5Cx1S4A"
+                                    target="_blank">320 West Mag apartment
+                                    complex</a> or
+                                <a href="https://goo.gl/maps/y1cKX2ZaVHoCgue46"
+                                    target="_blank">Lowder</a>.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Will there be travel
+                                compensation?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Unfortunately, Auburn Hacks will not provide
+                                compensation to those traveling to Auburn.
+                                Please email us <a
+                                    href="mailto:staff@auburnhacks.com">here</a>
+                                if you have any questions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-div">
+                        <h3 class="faq-header">TECH</h3>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Can I make anything I want?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes! All appropriate software projects are
+                                welcome. Unfortunately, Auburn Hacks does not
+                                support hardware projects at this time.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Can I bring code that I've
+                                previously programmed?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                No, all code must be written during the
+                                hackathon.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Can I start working on my
+                                project before the event?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                No, all code must be written during the
+                                hackathon.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Should I attend if I have no
+                                coding experience?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes! We have workshops for beginner and
+                                intermediate participants. We also have a prize
+                                category for beginner teams. If you want to get
+                                started coding, Auburn Hacks would be a
+                                great event for you!
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">Is there a prize category
+                                for beginners?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes! To level the playing field for beginner
+                                programmers, we have decided to add a beginner
+                                project prize category this year.
+                                <br />We determine beginner eligibility by
+                                reviewing participants’ registration
+                                information.
+                            </p>
+                        </div>
+                        <div class="faq-bullet">
+                            <img class="flower"
+                                src="./assets/images/faq/flower.svg">
+                            <p class="faq-question">What are some resources I
+                                can look at before the hackathon?</p>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                We are working on creating a resource pack for
+                                beginners to prepare for Auburn Hacks. If you
+                                register, we will notify you when it's complete!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sponsors" class="section">
+                <h2 class="title">SPONSORS</h2>
+                <div class="content">
+                    <!-- <div class="sponsor-container">
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                </div>
+                <div class="sponsor-container">
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                </div>
+                <div class="sponsor-container">
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                </div>
+                <div class="sponsor-container">
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                </div> -->
+                    <p>
+                        <!-- <br />
+                    <br /> -->
+                        Sponsors to be announced soon!
+                    </p>
+                </div>
+                <img id="octo" src="assets/images/sponsors/octo.svg" />
+                <img id="scuba1" src="assets/images/sponsors/scuba1.svg" />
+                <img id="bubbles5" src="assets/images/about/bubbles.svg" />
+                <img id="bubbles6" src="assets/images/about/bubbles.svg" />
+                <img id="bubbles7" src="assets/images/about/bubbles.svg" />
+                <img id="bubbles8" src="assets/images/about/bubbles.svg" />
+            </div>
+
+            <div id="sponsors-mobile" class="section-mobile">
+                <h2 class="title-mobile">SPONSORS</h2>
+                <div class="content-mobile">
+                    <!-- <div class="sponsor-container">
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                </div>
+                <div class="sponsor-container">
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                </div>
+                <div class="sponsor-container">
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                </div>
+                <div class="sponsor-container">
+                    <a class="sponsor" href="https://auburnhacks.com/" target="_blank"></a>
+                </div> -->
+                    <p>
+                        <!-- <br />
+                    <br /> -->
+                        Sponsors to be announced soon!
+                    </p>
+                </div>
+            </div>
+
+            <div id="directors" class="section">
+                <h2 class="title">DIRECTORS</h2>
+                <div id="directors-container">
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="jared"
+                                href="https://www.linkedin.com/in/jaredhprather/"
+                                target="_blank"></a>
+                            <h4 class="name">Jared Prather</h4>
+                            <p>Head Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="emily"
+                                href="https://www.linkedin.com/in/emily-kimbrell-89b299221/"
+                                target="_blank"></a>
+                            <h4 class="name">Emily Kimbrell</h4>
+                            <p>Marketing Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="ben"
+                                href="https://www.linkedin.com/in/bfisk1711/"
+                                target="_blank"></a>
+                            <h4 class="name">Benjamin Fisk</h4>
+                            <p>Logistics Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="lori"
+                                href="https://www.linkedin.com/in/lorissa-algarin/"
+                                target="_blank"></a>
+                            <h4 class="name">Lorissa Algarin</h4>
+                            <p>Operations Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="olivia"
+                                href="https://www.linkedin.com/in/olivia-smith-4a5a80222/"
+                                target="_blank"></a>
+                            <h4 class="name">Olivia Smith</h4>
+                            <p>Finance Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="zac"
+                                href="https://www.linkedin.com/in/zac-kelley/"
+                                target="_blank"></a>
+                            <h4 class="name">Zachary Kelley</h4>
+                            <p>Finance Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="cady"
+                                href="https://www.linkedin.com/in/cadypridgeon/"
+                                target="_blank"></a>
+                            <h4 class="name">Cady Pridgeon</h4>
+                            <p>Tech Director</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="scuba2" src="assets/images/directors/scuba2.svg" />
+                <img id="eye" src="assets/images/directors/fish.svg" />
+                <img id="bubbles9" src="assets/images/about/bubbles.svg" />
+                <img id="bubbles10" src="assets/images/about/bubbles.svg" />
+                <!-- <img id="bubbles11" src="assets/images/about/bubbles.svg" /> -->
+                <img id="bubbles12" src="assets/images/about/bubbles.svg" />
+                <img id="bubbles13" src="assets/images/about/bubbles.svg" />
+                <!-- <img id="bubbles14" src="assets/images/about/bubbles.svg" /> -->
+            </div>
+
+            <div id="directors-mobile" class="section-mobile">
+                <h2 class="title-mobile">DIRECTORS</h2>
+                <div id="directors-container">
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="jared"
+                                href="https://www.linkedin.com/in/jaredhprather/"
+                                target="_blank"></a>
+                            <h4 class="name">Jared Prather</h4>
+                            <p>Head Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="emily"
+                                href="https://www.linkedin.com/in/emily-kimbrell-89b299221/"
+                                target="_blank"></a>
+                            <h4 class="name">Emily Kimbrell</h4>
+                            <p>Marketing Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="ben"
+                                href="https://www.linkedin.com/in/bfisk1711/"
+                                target="_blank"></a>
+                            <h4 class="name">Benjamin Fisk</h4>
+                            <p>Logistics Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="lori"
+                                href="https://www.linkedin.com/in/lorissa-algarin/"
+                                target="_blank"></a>
+                            <h4 class="name">Lorissa Algarin</h4>
+                            <p>Operations Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="olivia"
+                                href="https://www.linkedin.com/in/olivia-smith-4a5a80222/"
+                                target="_blank"></a>
+                            <h4 class="name">Olivia Smith</h4>
+                            <p>Finance Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="zac"
+                                href="https://www.linkedin.com/in/zac-kelley/"
+                                target="_blank"></a>
+                            <h4 class="name">Zachary Kelley</h4>
+                            <p>Finance Director</p>
+                        </div>
+                    </div>
+                    <div id="directors-div">
+                        <div class="director">
+                            <a class="profile-pic" id="cady"
+                                href="https://www.linkedin.com/in/cadypridgeon/"
+                                target="_blank"></a>
+                            <h4 class="name">Cady Pridgeon</h4>
+                            <p>Tech Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="countdown" class="section">
+                <!--Credit to HackMIT-->
+                <h2 class="title">
+                    COUNTDOWN
+                </h2>
+                <div id="countdown-text">
+                    <div class="content">
+                        AUBURN HACKS STARTS IN...
+                    </div>
+                    <!-- <div id="countdown-timer">
                     <div id="timer">
                         <span id="timer-days"></span>
                         <span id="timer-hours"></span>
@@ -1159,132 +1481,140 @@
                         <span id="timer-secs"></span>
                     </div>
                 </div> -->
-            </div>
-        </div>
-        <div id="countdown-mobile" class="section-mobile">
-            <h2 class="title-mobile">
-                COUNTDOWN
-            </h2>
-            <div id="countdown-text">
-                <div class="content-mobile">
-                    AUBURN HACKS STARTS IN...
                 </div>
             </div>
-        </div>
-        <div id="countdown-timer">
-            <div id="timer">
-                <span id="timer-days"></span>
-                <span id="timer-hours"></span>
-                <span id="timer-mins"></span>
-                <span id="timer-secs"></span>
+            <div id="countdown-mobile" class="section-mobile">
+                <h2 class="title-mobile">
+                    COUNTDOWN
+                </h2>
+                <div id="countdown-text">
+                    <div class="content-mobile">
+                        AUBURN HACKS STARTS IN...
+                    </div>
+                </div>
             </div>
-        </div>
-        <div id="footer-assets">
-            <img id="coral1" src="assets/images/countdown/coral1.svg" />
-            <img id="coral2" src="assets/images/countdown/coral2.svg" />
-            <img id="coral3" src="assets/images/countdown/coral3.svg" />
-            <img id="coral4" src="assets/images/countdown/coral4.svg" />
-            <img id="coral5" src="assets/images/countdown/coral5.svg" />
-            <img id="coral6" src="assets/images/countdown/coral6.svg" />
-            <img id="coral7" src="assets/images/countdown/coral8.svg" />
-            <img id="coral8" src="assets/images/countdown/coral9.svg" />
-            <img id="coral9" src="assets/images/countdown/coral10.svg" />
-            <img id="coral10" src="assets/images/countdown/coral11.svg" />
-            <img id="tiger" src="assets/images/countdown/tiger.svg" />
-            <img id="chest" src="assets/images/countdown/chest.svg" />
-        </div>
-        <!-- WOOOOOOOO CONGRATS! You found the hidden treasure! -->
-        <!-- Unlock a tropical adventure by changing "visibility: hidden" to "visibility: visible" on the div below. -->
-        <div style="visibility:hidden;">
-            <div id="treasure-map">
-                <h3 id="treasure-title">SCAVENGER HUNT</h3>
-                <a id="treasure-button" href="https://aub.ie/auhackshunt" target="_blank">CLICK HERE TO BEGIN</a>
-                <h3 id="treasure-passcode">8888</h3>
+            <div id="countdown-timer">
+                <div id="timer">
+                    <span id="timer-days"></span>
+                    <span id="timer-hours"></span>
+                    <span id="timer-mins"></span>
+                    <span id="timer-secs"></span>
+                </div>
             </div>
-            <div id="treasure-map-mobile">
-                <h3 id="treasure-title">SCAVENGER HUNT</h3>
-                <a id="treasure-button" href="https://aub.ie/auhackshunt" target="_blank">CLICK HERE TO BEGIN</a>
-                <h3 id="treasure-passcode">8888</h3>
+            <div id="footer-assets">
+                <img id="coral1" src="assets/images/countdown/coral1.svg" />
+                <img id="coral2" src="assets/images/countdown/coral2.svg" />
+                <img id="coral3" src="assets/images/countdown/coral3.svg" />
+                <img id="coral4" src="assets/images/countdown/coral4.svg" />
+                <img id="coral5" src="assets/images/countdown/coral5.svg" />
+                <img id="coral6" src="assets/images/countdown/coral6.svg" />
+                <img id="coral7" src="assets/images/countdown/coral8.svg" />
+                <img id="coral8" src="assets/images/countdown/coral9.svg" />
+                <img id="coral9" src="assets/images/countdown/coral10.svg" />
+                <img id="coral10" src="assets/images/countdown/coral11.svg" />
+                <img id="tiger" src="assets/images/countdown/tiger.svg" />
+                <img id="chest" src="assets/images/countdown/chest.svg" />
             </div>
-        </div>
-        <div id="footer-assets-mobile">
-            <img id="chest" src="assets/images/countdown/chest.svg" />
-            <img id="tiger" src="assets/images/countdown/tiger.svg" />
-        </div>
-    </div>
-
-    <div id="sand-bg">
-        <div id="bottom-icon-container">
-            <div id="icon1" class="bottom-icon">
-                <a href="https://www.instagram.com/auburnhacks/?hl=en" target="_blank">
-                    <img src="assets/icons/instagram-blue-fill.svg">
-                    <img src="assets/icons/instagram-gray-fill.svg">
-                </a>
+            <!-- WOOOOOOOO CONGRATS! You found the hidden treasure! -->
+            <!-- Unlock a tropical adventure by changing "visibility: hidden" to "visibility: visible" on the div below. -->
+            <div style="visibility:hidden;">
+                <div id="treasure-map">
+                    <h3 id="treasure-title">SCAVENGER HUNT</h3>
+                    <a id="treasure-button" href="https://aub.ie/auhackshunt"
+                        target="_blank">CLICK HERE TO BEGIN</a>
+                    <h3 id="treasure-passcode">8888</h3>
+                </div>
+                <div id="treasure-map-mobile">
+                    <h3 id="treasure-title">SCAVENGER HUNT</h3>
+                    <a id="treasure-button" href="https://aub.ie/auhackshunt"
+                        target="_blank">CLICK HERE TO BEGIN</a>
+                    <h3 id="treasure-passcode">8888</h3>
+                </div>
             </div>
-            <div id="icon2" class="bottom-icon">
-                <a href="https://www.facebook.com/AuburnHacks/" target="_blank">
-                    <img src="assets/icons/facebook-blue-fill.svg">
-                    <img src="assets/icons/facebook-gray-fill.svg">
-                </a>
-            </div>
-            <div id="icon3" class="bottom-icon">
-                <a href="https://twitter.com/auburnhacks" target="_blank">
-                    <img src="assets/icons/twitter-blue-fill.svg">
-                    <img src="assets/icons/twitter-gray-fill.svg">
-                </a>
-            </div>
-            <div id="icon4" class="bottom-icon">
-                <a href="https://www.linkedin.com/company/auburnhacks/" target="_blank">
-                    <img src="assets/icons/linkedin-blue-fill.svg">
-                    <img src="assets/icons/linkedin-gray-fill.svg">
-                </a>
-            </div>
-            <div id="icon5" class="bottom-icon">
-                <a href="mailto:staff@auburnhacks.com" target="_blank">
-                    <img src="assets/icons/email-blue-fill.svg">
-                    <img src="assets/icons/email-gray-fill.svg">
-                </a>
+            <div id="footer-assets-mobile">
+                <img id="chest" src="assets/images/countdown/chest.svg" />
+                <img id="tiger" src="assets/images/countdown/tiger.svg" />
             </div>
         </div>
 
-        <div id="bottom-icon-container-mobile">
-            <div id="icon1" class="bottom-icon">
-                <a href="https://www.instagram.com/auburnhacks/?hl=en" target="_blank">
-                    <img src="assets/icons/instagram-blue-fill.svg">
-                    <img src="assets/icons/instagram-gray-fill.svg">
-                </a>
+        <div id="sand-bg">
+            <div id="bottom-icon-container">
+                <div id="icon1" class="bottom-icon">
+                    <a href="https://www.instagram.com/auburnhacks/?hl=en"
+                        target="_blank">
+                        <img src="assets/icons/instagram-blue-fill.svg">
+                        <img src="assets/icons/instagram-gray-fill.svg">
+                    </a>
+                </div>
+                <div id="icon2" class="bottom-icon">
+                    <a href="https://www.facebook.com/AuburnHacks/"
+                        target="_blank">
+                        <img src="assets/icons/facebook-blue-fill.svg">
+                        <img src="assets/icons/facebook-gray-fill.svg">
+                    </a>
+                </div>
+                <div id="icon3" class="bottom-icon">
+                    <a href="https://twitter.com/auburnhacks" target="_blank">
+                        <img src="assets/icons/twitter-blue-fill.svg">
+                        <img src="assets/icons/twitter-gray-fill.svg">
+                    </a>
+                </div>
+                <div id="icon4" class="bottom-icon">
+                    <a href="https://www.linkedin.com/company/auburnhacks/"
+                        target="_blank">
+                        <img src="assets/icons/linkedin-blue-fill.svg">
+                        <img src="assets/icons/linkedin-gray-fill.svg">
+                    </a>
+                </div>
+                <div id="icon5" class="bottom-icon">
+                    <a href="mailto:staff@auburnhacks.com" target="_blank">
+                        <img src="assets/icons/email-blue-fill.svg">
+                        <img src="assets/icons/email-gray-fill.svg">
+                    </a>
+                </div>
             </div>
-            <div id="icon2" class="bottom-icon">
-                <a href="https://www.facebook.com/AuburnHacks/" target="_blank">
-                    <img src="assets/icons/facebook-blue-fill.svg">
-                    <img src="assets/icons/facebook-gray-fill.svg">
-                </a>
-            </div>
-            <div id="icon3" class="bottom-icon">
-                <a href="https://twitter.com/auburnhacks" target="_blank">
-                    <img src="assets/icons/twitter-blue-fill.svg">
-                    <img src="assets/icons/twitter-gray-fill.svg">
-                </a>
-            </div>
-            <div id="icon4" class="bottom-icon">
-                <a href="https://www.linkedin.com/company/auburnhacks/" target="_blank">
-                    <img src="assets/icons/linkedin-blue-fill.svg">
-                    <img src="assets/icons/linkedin-gray-fill.svg">
-                </a>
-            </div>
-            <div id="icon5" class="bottom-icon">
-                <a href="mailto:staff@auburnhacks.com" target="_blank">
-                    <img src="assets/icons/email-blue-fill.svg">
-                    <img src="assets/icons/email-gray-fill.svg">
-                </a>
-            </div>
-        </div>
-        <p id="bottom-text">Copyright &copy Auburn Hacks 2022</p>
-    </div>
 
-    <script type="text/javascript" src="./js/home.js"></script>
-    <script type="text/javascript" src="./js/faq.js"></script>
-    <script type="text/javascript" src="./js/countdown.js"></script>
-</body>
+            <div id="bottom-icon-container-mobile">
+                <div id="icon1" class="bottom-icon">
+                    <a href="https://www.instagram.com/auburnhacks/?hl=en"
+                        target="_blank">
+                        <img src="assets/icons/instagram-blue-fill.svg">
+                        <img src="assets/icons/instagram-gray-fill.svg">
+                    </a>
+                </div>
+                <div id="icon2" class="bottom-icon">
+                    <a href="https://www.facebook.com/AuburnHacks/"
+                        target="_blank">
+                        <img src="assets/icons/facebook-blue-fill.svg">
+                        <img src="assets/icons/facebook-gray-fill.svg">
+                    </a>
+                </div>
+                <div id="icon3" class="bottom-icon">
+                    <a href="https://twitter.com/auburnhacks" target="_blank">
+                        <img src="assets/icons/twitter-blue-fill.svg">
+                        <img src="assets/icons/twitter-gray-fill.svg">
+                    </a>
+                </div>
+                <div id="icon4" class="bottom-icon">
+                    <a href="https://www.linkedin.com/company/auburnhacks/"
+                        target="_blank">
+                        <img src="assets/icons/linkedin-blue-fill.svg">
+                        <img src="assets/icons/linkedin-gray-fill.svg">
+                    </a>
+                </div>
+                <div id="icon5" class="bottom-icon">
+                    <a href="mailto:staff@auburnhacks.com" target="_blank">
+                        <img src="assets/icons/email-blue-fill.svg">
+                        <img src="assets/icons/email-gray-fill.svg">
+                    </a>
+                </div>
+            </div>
+            <p id="bottom-text">Copyright &copy Auburn Hacks 2022</p>
+        </div>
+
+        <script type="text/javascript" src="./js/home.js"></script>
+        <script type="text/javascript" src="./js/faq.js"></script>
+        <script type="text/javascript" src="./js/countdown.js"></script>
+    </body>
 
 </html>
