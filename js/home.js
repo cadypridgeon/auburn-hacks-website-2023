@@ -1,18 +1,19 @@
-$(document).ready(function () {
-    var scroll_pos = 0;
-    $(document).scroll(function () {
-        scroll_pos = $(this).scrollTop();
-        if (scroll_pos > 10 && scroll_pos < 150) {
-            $("#home-bg").css('background-color', '#F4B8A1');
-        }
-        else if (scroll_pos > 150) {
-            $("#home-bg").css('background-color', '#ECA296');
-        }
-        else {
-            $("#home-bg").css('background-color', '#f7c79e');
-        }
-    });
-});
+let bg = document.getElementById('home-bg');
+
+window.addEventListener('scroll', function (e) {
+    let position = window.scrollY;
+    console.log(position)
+    if (position > 10 && position < 150) {
+        bg.style.background = '#F4B8A1';
+    }
+    else if (position > 150) {
+        bg.style.background = '#ECA296';
+    }
+    else {
+        bg.style.background = '#f7c79e';
+    }
+})
+
 
 let mtn1 = document.getElementById('mtn1');
 let mtn2 = document.getElementById('mtn2');
