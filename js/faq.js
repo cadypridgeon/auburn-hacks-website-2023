@@ -22,6 +22,11 @@ function close(question) {
 let flowers = document.getElementsByClassName('faq-question');
 
 for (let i = 0; i < flowers.length; i++) {
+    flowers[i].addEventListener("keypress", function (e) {
+        if (e.key === "Enter") {
+            flowers[i].click();
+        }
+    });
     flowers[i].addEventListener("click", function (e) {
         if (!flowers[i].classList.contains("clicked")) {
             open(flowers[i]);
