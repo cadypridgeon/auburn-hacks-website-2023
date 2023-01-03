@@ -51,9 +51,9 @@ html {
 
 body {
     width: 100vw;
-    /* height: 100%; */
+    /* position: relative; */
     overflow-x: hidden;
-    overflow-y: scroll !important;
+    overflow-y: hidden;
 }
 
 
@@ -66,7 +66,8 @@ body {
     background: #f7c79e;
     display: flex;
     transition: background-color 1s ease-in-out;
-    overflow-x: hidden;
+    overflow: hidden;
+    position: relative;
 }
 
 #gradient-bg {
@@ -407,7 +408,6 @@ body {
 
 #home-assets {
     display: flex;
-    overflow-x: hidden;
 }
 
 @media (max-width:1020px) {
@@ -473,8 +473,9 @@ body {
 
 #palm {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: -1px;
+    /* top: -4.9em; */
+    /* left: 0; */
     z-index: 99;
     pointer-events: none;
     width: 100vw;
@@ -540,7 +541,7 @@ body {
     display: none;
     width: 100vw;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     position: absolute;
 }
 
