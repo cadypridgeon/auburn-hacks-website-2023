@@ -1395,7 +1395,7 @@ body {
     z-index: 0;
     width: 16.59375em;
     /* top: 208em; */
-    top: 214em;
+    top: 229em;
     left: 10em;
     opacity: .7;
     rotate: -17deg;
@@ -1408,7 +1408,7 @@ body {
     width: 3.2325em;
     left: 8em;
     /* top: 225em; */
-    top: 231em;
+    top: 246em;
     opacity: .3;
     rotate: -128deg;
     animation: float 4s infinite;
@@ -1420,7 +1420,7 @@ body {
     width: 3.2325em;
     left: 2em;
     /* top: 227em; */
-    top: 233em;
+    top: 248em;
     opacity: .3;
     rotate: -128deg;
     animation: float 4s infinite;
@@ -1432,7 +1432,7 @@ body {
     width: 22.3125em;
     right: 3em;
     /* top: 206em; */
-    top: 212em;
+    top: 227em;
     opacity: .7;
     animation: float-offset 6s infinite;
 }
@@ -1443,7 +1443,7 @@ body {
     width: 3.2325em;
     right: 7em;
     /* top: 202em; */
-    top: 208em;
+    top: 223em;
     opacity: .3;
     rotate: -128deg;
     animation: float-offset 4s infinite;
@@ -1455,7 +1455,7 @@ body {
     width: 3.2325em;
     right: 0em;
     /* top: 200em; */
-    top: 206em;
+    top: 221em;
     opacity: .3;
     rotate: -128deg;
     animation: float-offset 4s infinite;
@@ -1640,7 +1640,7 @@ body {
     width: 30.125em;
     left: 12em;
     /* top: 285em; */
-    top: 285em;
+    top: 300em;
     opacity: .8;
     animation: float-offset 6s infinite;
 }
@@ -1656,7 +1656,7 @@ body {
     z-index: 0;
     width: 9.6875em;
     /* top: 288em; */
-    top: 290em;
+    top: 310em;
     right: 14em;
     opacity: .8;
     rotate: 30deg;
@@ -1674,7 +1674,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 293em; */
-    top: 299em;
+    top: 314em;
     left: 3em;
     opacity: .3;
     transform: scaleX(-1);
@@ -1686,7 +1686,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 310em; */
-    top: 316em;
+    top: 331em;
     left: 3em;
     opacity: .3;
     rotate: -17deg;
@@ -1699,7 +1699,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 327em; */
-    top: 333em;
+    top: 348em;
     left: 3em;
     opacity: .3;
     transform: scaleX(-1);
@@ -1711,7 +1711,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 293em; */
-    top: 299em;
+    top: 314em;
     right: 3em;
     opacity: .3;
     animation: float 8s infinite;
@@ -1722,7 +1722,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 310em; */
-    top: 316em;
+    top: 331em;
     right: 3em;
     opacity: .3;
     rotate: 17deg;
@@ -1734,7 +1734,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 327em; */
-    top: 333em;
+    top: 348em;
     right: 3em;
     opacity: .3;
     animation: float 8s infinite;
