@@ -811,8 +811,21 @@ body {
 
 /* ---------- about ---------- */
 
+#video {
+    width: 70vw;
+    height: 70vh;
+    padding-bottom: 18.75em;
+    display: flex
+}
+
+@media (max-width:1020px) {
+    #video {
+        display: none
+    }
+}
+
 #about {
-    padding-top: 23.56em;
+    padding-top: 18.75em;
     scroll-margin-top: -10em;
 }
 
@@ -837,7 +850,7 @@ body {
 #school-left {
     position: absolute;
     /* top: 48em; */
-    top: 62em;
+    top: 112em;
     left: -10em;
     opacity: 50%;
     width: 40em;
@@ -848,7 +861,7 @@ body {
 
 #school-right {
     position: absolute;
-    top: 10em;
+    top: 60em;
     right: -4em;
     opacity: 50%;
     width: 35em;
@@ -860,7 +873,7 @@ body {
 #bubbles1 {
     position: absolute;
     /* top: 50em; */
-    top: 62em;
+    top: 112em;
     right: 20em;
     opacity: 30%;
     width: 3.8125em;
@@ -873,13 +886,26 @@ body {
 #turtle1 {
     position: absolute;
     /* top: 58em; */
-    top: 70em;
+    top: 120em;
     right: 5em;
     opacity: 50%;
     width: 12em;
     rotate: 8deg;
     z-index: 0;
     animation: float-offset 3s infinite;
+}
+
+#video-mobile {
+    width: 70vw;
+    height: 50vh;
+    padding-bottom: 10vh;
+    display: none;
+}
+
+@media (max-width:1020px) {
+    #video-mobile {
+        display: flex;
+    }
 }
 
 #about-mobile {
@@ -1042,7 +1068,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 10.9375em;
-    top: 135em;
+    top: 185em;
     left: 0;
     opacity: 50%;
     animation: float 2s infinite;
@@ -1052,7 +1078,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 4.875em;
-    top: 121em;
+    top: 171em;
     left: 2em;
     opacity: 30%;
     rotate: -23deg;
@@ -1064,7 +1090,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 4.875em;
-    top: 111em;
+    top: 161em;
     left: 0em;
     opacity: 30%;
     rotate: 17deg;
@@ -1076,7 +1102,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 4.875em;
-    top: 101em;
+    top: 151em;
     left: -2em;
     opacity: 30%;
     rotate: -23deg;
@@ -1088,7 +1114,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 6.05375em;
-    top: 103em;
+    top: 153em;
     right: 3em;
     rotate: -7deg;
     opacity: 50%;
@@ -1099,7 +1125,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 10.703125em;
-    top: 123em;
+    top: 173em;
     right: 2em;
     rotate: 16deg;
     opacity: 50%;
@@ -1110,7 +1136,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 12.5625em;
-    top: 165em;
+    top: 215em;
     left: 8em;
     opacity: 60%;
     animation: float-offset 8s infinite;
@@ -1120,7 +1146,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 7.25em;
-    top: 158em;
+    top: 208em;
     left: 22em;
     opacity: 60%;
     animation: float-offset 6s infinite;
@@ -1130,7 +1156,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 4em;
-    top: 163em;
+    top: 213em;
     left: 30em;
     opacity: 60%;
     animation: float-offset 4s infinite;
@@ -1140,7 +1166,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 6.5em;
-    top: 163em;
+    top: 213em;
     right: 30em;
     opacity: .6;
     animation: float 2s infinite;
@@ -1150,7 +1176,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 9.5em;
-    top: 158em;
+    top: 208em;
     right: 18em;
     opacity: .6;
     animation: float 3s infinite;
@@ -1160,7 +1186,7 @@ body {
     position: absolute;
     z-index: 0;
     width: 10.9375em;
-    top: 165em;
+    top: 215em;
     right: 6em;
     opacity: .6;
     animation: float 4s infinite;
@@ -1395,7 +1421,7 @@ body {
     z-index: 0;
     width: 16.59375em;
     /* top: 208em; */
-    top: 229em;
+    top: 279em;
     left: 10em;
     opacity: .7;
     rotate: -17deg;
@@ -1408,7 +1434,7 @@ body {
     width: 3.2325em;
     left: 8em;
     /* top: 225em; */
-    top: 246em;
+    top: 296em;
     opacity: .3;
     rotate: -128deg;
     animation: float 4s infinite;
@@ -1420,7 +1446,7 @@ body {
     width: 3.2325em;
     left: 2em;
     /* top: 227em; */
-    top: 248em;
+    top: 298em;
     opacity: .3;
     rotate: -128deg;
     animation: float 4s infinite;
@@ -1432,7 +1458,7 @@ body {
     width: 22.3125em;
     right: 3em;
     /* top: 206em; */
-    top: 227em;
+    top: 277em;
     opacity: .7;
     animation: float-offset 6s infinite;
 }
@@ -1443,7 +1469,7 @@ body {
     width: 3.2325em;
     right: 7em;
     /* top: 202em; */
-    top: 223em;
+    top: 273em;
     opacity: .3;
     rotate: -128deg;
     animation: float-offset 4s infinite;
@@ -1455,7 +1481,7 @@ body {
     width: 3.2325em;
     right: 0em;
     /* top: 200em; */
-    top: 221em;
+    top: 271em;
     opacity: .3;
     rotate: -128deg;
     animation: float-offset 4s infinite;
@@ -1640,7 +1666,7 @@ body {
     width: 30.125em;
     left: 12em;
     /* top: 285em; */
-    top: 300em;
+    top: 350em;
     opacity: .8;
     animation: float-offset 6s infinite;
 }
@@ -1656,7 +1682,7 @@ body {
     z-index: 0;
     width: 9.6875em;
     /* top: 288em; */
-    top: 310em;
+    top: 360em;
     right: 14em;
     opacity: .8;
     rotate: 30deg;
@@ -1674,7 +1700,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 293em; */
-    top: 314em;
+    top: 364em;
     left: 3em;
     opacity: .3;
     transform: scaleX(-1);
@@ -1686,7 +1712,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 310em; */
-    top: 331em;
+    top: 381em;
     left: 3em;
     opacity: .3;
     rotate: -17deg;
@@ -1699,7 +1725,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 327em; */
-    top: 348em;
+    top: 398em;
     left: 3em;
     opacity: .3;
     transform: scaleX(-1);
@@ -1711,7 +1737,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 293em; */
-    top: 314em;
+    top: 364em;
     right: 3em;
     opacity: .3;
     animation: float 8s infinite;
@@ -1722,7 +1748,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 310em; */
-    top: 331em;
+    top: 381em;
     right: 3em;
     opacity: .3;
     rotate: 17deg;
@@ -1734,7 +1760,7 @@ body {
     z-index: 0;
     width: 8.216875em;
     /* top: 327em; */
-    top: 348em;
+    top: 398em;
     right: 3em;
     opacity: .3;
     animation: float 8s infinite;
